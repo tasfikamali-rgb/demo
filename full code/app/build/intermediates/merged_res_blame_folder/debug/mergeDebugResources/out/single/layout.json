@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_entrant_home.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_entrant_home.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_create_event.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_organizer_create_event.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_event_details.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_organizer_event_details.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/item_image.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/item_image.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/item_user.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/item_user.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/dialog_send_notification.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/dialog_send_notification.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_profile.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_organizer_profile.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_sign_up.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_sign_up.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_first.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_entrant_profile.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_entrant_profile.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_map.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_organizer_map.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_entrant_event_details.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_entrant_event_details.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/item_notification.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/item_notification.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/content_main.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/content_main.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_admin_home.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_admin_home.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_home.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_organizer_home.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_entrants.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_organizer_entrants.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_event_entrants.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_organizer_event_entrants.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_notifications.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_event_details.xml",
+        "source": "com.example.lotterappjava.app-main-57:/layout/fragment_organizer_event_details.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_second.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/item_organizer_event.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/item_organizer_event.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_login.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/item_event.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/item_event.xml"
+    },
+    {
+        "merged": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-mergeDebugResources-54:/layout/fragment_organizer_draws.xml",
+        "source": "/Users/tasfikamali/.gradle/daemon/9.2.1/com.example.lotterappjava.app-main-57:/layout/fragment_organizer_draws.xml"
+    }
+]

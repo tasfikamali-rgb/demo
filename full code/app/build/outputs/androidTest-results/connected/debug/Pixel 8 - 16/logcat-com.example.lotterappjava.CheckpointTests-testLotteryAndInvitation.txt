@@ -1,0 +1,595 @@
+03-12 11:26:56.795 16971 16993 I TestRunner: started: testLotteryAndInvitation(com.example.lotterappjava.CheckpointTests)
+03-12 11:26:56.827 15215 15339 I DefaultLPManager: #getPackage
+03-12 11:26:56.828 15215 15339 I ZipfileLPSourceImpl: #getPackage
+03-12 11:26:56.828 15215 15339 I ZipLPPopulator: #addNewFileGroups
+03-12 11:26:56.828 15215 15339 I emuq    : #getDownloadableLanguagePacks
+03-12 11:26:56.843 15215 15339 I emvi    : (REDACTED) Loaded languagepack (LP) flag value from latest config %s: %s
+03-12 11:26:56.844 15215 15339 I DefaultLPManager: #getPackage
+03-12 11:26:56.845 15215 15339 I ZipfileLPSourceImpl: #getPackage
+03-12 11:26:56.845 15215 15339 I ZipLPPopulator: #addNewFileGroups
+03-12 11:26:56.845 15215 15339 I emuq    : #getDownloadableLanguagePacks
+03-12 11:26:56.854 15215 15319 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.861 15215 15339 I emvi    : (REDACTED) Loaded languagepack (LP) flag value from latest config %s: %s
+03-12 11:26:56.862 15215 15339 I DefaultLPManager: #getPackage
+03-12 11:26:56.863 15215 15339 I ZipfileLPSourceImpl: #getPackage
+03-12 11:26:56.863 15215 15339 I ZipLPPopulator: #addNewFileGroups
+03-12 11:26:56.863 15215 15339 I emuq    : #getDownloadableLanguagePacks
+03-12 11:26:56.869 15215 15325 I cvdk    : (REDACTED) HotwordModel returned with path: %s
+03-12 11:26:56.872 15215 15325 I cvdk    : (REDACTED) Scraping model ID for model of size %d
+03-12 11:26:56.872 15215 15325 I cvdk    : (REDACTED) Scraped model ID: %s
+03-12 11:26:56.873 15215 15338 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.877 15215 15341 I ekpr    : (REDACTED) Returning hotword model with ID: %s
+03-12 11:26:56.878 15215 15339 I emvi    : (REDACTED) Loaded languagepack (LP) flag value from latest config %s: %s
+03-12 11:26:56.884 15215 15325 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.901 16971 16997 W DynamiteModule: Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+03-12 11:26:56.907  3458  5658 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+03-12 11:26:56.907 15215 15319 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.908 15215 15319 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.908 16971 16997 I DynamiteModule: Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+03-12 11:26:56.908 16971 16997 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+03-12 11:26:56.909 15215 15319 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.910 16971 16997 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+03-12 11:26:56.910 16971 16997 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/com.android.location.provider.jar
+03-12 11:26:56.910 16971 16997 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/com.android.media.remotedisplay.jar
+03-12 11:26:56.913 15215 15338 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.914 15215 15319 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.914 16971 16997 D nativeloader: Configuring clns-10 for other apk /system_ext/framework/com.android.extensions.appfunctions.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~NardgqykDS9Qtm2pwegrew==/com.google.android.gms-cd_xiJDyqTthW5Hn8axmAg==/lib/arm64:/data/app/~~NardgqykDS9Qtm2pwegrew==/com.google.android.gms-cd_xiJDyqTthW5Hn8axmAg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+03-12 11:26:56.915 16971 16997 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+03-12 11:26:56.915 16971 16997 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+03-12 11:26:56.919 15215 15338 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.920 15215 15338 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.922  1912  2874 D ConnectivityService: requestNetwork for uid/pid:10440/16971 activeRequest: null callbackRequest: 6227 [NetworkRequest [ REQUEST id=6228, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST
+03-12 11:26:56.922 15215 15338 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:56.929 16971 16997 D nativeloader: Configuring clns-11 for other apk /data/app/~~NardgqykDS9Qtm2pwegrew==/com.google.android.gms-cd_xiJDyqTthW5Hn8axmAg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~NardgqykDS9Qtm2pwegrew==/com.google.android.gms-cd_xiJDyqTthW5Hn8axmAg==/lib/arm64:/data/app/~~NardgqykDS9Qtm2pwegrew==/com.google.android.gms-cd_xiJDyqTthW5Hn8axmAg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+03-12 11:26:56.932  6342  6342 I ContentProtectionServic: CP service destroyed
+03-12 11:26:56.938 16971 16997 W ProviderInstaller: Failed to report request stats: com.google.android.gms.common.security.ProviderInstallerImpl.reportRequestStats [class android.content.Context, long, long]
+03-12 11:26:56.954  1912  2729 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=6228, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]
+03-12 11:26:56.963  1912  2729 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=6228, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]
+03-12 11:26:56.964 16971 16997 D nativeloader: Load /data/app/~~NardgqykDS9Qtm2pwegrew==/com.google.android.gms-cd_xiJDyqTthW5Hn8axmAg==/base.apk!/lib/arm64-v8a/libconscrypt_gmscore_jni.so using class loader ns clns-11 (caller=/data/app/~~NardgqykDS9Qtm2pwegrew==/com.google.android.gms-cd_xiJDyqTthW5Hn8axmAg==/base.apk): ok
+03-12 11:26:56.964 16971 16997 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 334 native methods...
+03-12 11:26:56.971  1912  2729 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=6228, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]
+03-12 11:26:56.972  1912  2729 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=6228, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]
+03-12 11:26:56.973 16971 16997 I e.lotterappjava: hiddenapi: Accessing hidden method Ljava/security/spec/ECParameterSpec;->getCurveName()Ljava/lang/String; (runtime_flags=0, domain=core-platform, api=unsupported) from Lcom/google/android/gms/org/conscrypt/Platform; (domain=app, TargetSdkVersion=36) using reflection: allowed
+03-12 11:26:56.983  1912  2736 D ConnectivityService: NetReassign [6228 : null → 104] [c 0] [a 8] [i 53]
+03-12 11:26:56.985 15215 15319 I LPRequestState: (REDACTED) [%s] #resolveDesiredLanguagePacks
+03-12 11:26:56.985 15215 15339 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:56.986 15215 15339 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:56.987 15215 15339 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:56.988 15215 15335 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:56.988 15215 15339 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:56.988 15215 15335 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:56.988 15215 15339 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:56.989 15215 15335 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:56.989 15215 15336 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:57.010 16971 17000 I e.lotterappjava: hiddenapi: Accessing hidden method Ldalvik/system/VMStack;->getStackClass2()Ljava/lang/Class; (runtime_flags=0, domain=core-platform, api=unsupported) from Lgxsh; (domain=app, TargetSdkVersion=36) using reflection: allowed
+03-12 11:26:57.014 15215 15325 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:57.016 15215 15325 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:57.017 15215 15325 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:57.019 15215 15325 E emta    : (REDACTED) Unrecognized recognizer for [%s, %d]: %d. Ignoring it and its associated features.
+03-12 11:26:57.024 15215 15338 I LPRequestState: (REDACTED) [%s] #resolveDesiredLanguagePacks
+03-12 11:26:57.024 15215 15319 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:57.025 15215 15319 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:57.025 15215 15319 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:57.026 16971 16997 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+03-12 11:26:57.029 15215 15336 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:57.029 15215 15335 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:57.029 15215 15336 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:57.029 15215 15319 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:57.030 15215 15335 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:57.031 15215 15319 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:57.035 15215 15336 I LPRequestState: (REDACTED) [%s] #resolveDesiredLanguagePacks
+03-12 11:26:57.035 15215 15336 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:57.037 15215 15336 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:57.038 15215 15336 I LPRequestState: (REDACTED) Assigning language pack %s for request %s
+03-12 11:26:57.039 15215 15320 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:57.039 15215 15339 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:57.040 15215 15339 I LPDownloadSettingsState: (REDACTED) Defaulting LP download condition to %s as user has not edited settings.
+03-12 11:26:57.040 15215 15339 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:57.041 15215 15325 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:57.043 15215 15336 I ZipLPPopulator: (REDACTED) MDD.addFileGroup: %s
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: Failed to get service from broker.
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3370)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3354)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3337)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3279)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at bhay.a(:com.google.android.gms@260931035@26.09.31 (260400-877989800):36)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at bgyz.z(:com.google.android.gms@260931035@26.09.31 (260400-877989800):143)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at bgfe.run(:com.google.android.gms@260931035@26.09.31 (260400-877989800):42)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:1095)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at cvvk.mz(:com.google.android.gms@260931035@26.09.31 (260400-877989800):1)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at cvvk.dispatchMessage(:com.google.android.gms@260931035@26.09.31 (260400-877989800):5)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:269)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:367)
+03-12 11:26:57.054 16971 17001 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+03-12 11:26:57.055 16971 17001 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+03-12 11:26:57.063  1912  2874 D ConnectivityService: requestNetwork for uid/pid:10440/16971 activeRequest: null callbackRequest: 6229 [NetworkRequest [ REQUEST id=6230, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|BLK
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: Failed to register com.google.android.gms.providerinstaller#com.example.lotterappjava
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: geem: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at geeo.a(:com.google.android.gms@260931035@26.09.31 (260400-877989800):13)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at hddr.d(:com.google.android.gms@260931035@26.09.31 (260400-877989800):3)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at hddt.run(:com.google.android.gms@260931035@26.09.31 (260400-877989800):130)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at hdga.execute(:com.google.android.gms@260931035@26.09.31 (260400-877989800):1)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at hdeb.f(:com.google.android.gms@260931035@26.09.31 (260400-877989800):1)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at hdeb.m(:com.google.android.gms@260931035@26.09.31 (260400-877989800):99)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at hdeb.r(:com.google.android.gms@260931035@26.09.31 (260400-877989800):17)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at fwrw.hF(:com.google.android.gms@260931035@26.09.31 (260400-877989800):35)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at fjhp.run(:com.google.android.gms@260931035@26.09.31 (260400-877989800):12)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at hdga.execute(:com.google.android.gms@260931035@26.09.31 (260400-877989800):1)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at fjhq.b(:com.google.android.gms@260931035@26.09.31 (260400-877989800):18)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at fjif.b(:com.google.android.gms@260931035@26.09.31 (260400-877989800):34)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at fjih.d(:com.google.android.gms@260931035@26.09.31 (260400-877989800):25)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgcn.c(:com.google.android.gms@260931035@26.09.31 (260400-877989800):9)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgfc.q(:com.google.android.gms@260931035@26.09.31 (260400-877989800):48)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgfc.d(:com.google.android.gms@260931035@26.09.31 (260400-877989800):10)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgfc.g(:com.google.android.gms@260931035@26.09.31 (260400-877989800):191)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgfc.onConnectionFailed(:com.google.android.gms@260931035@26.09.31 (260400-877989800):2)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgfe.run(:com.google.android.gms@260931035@26.09.31 (260400-877989800):70)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at android.os.Handler.handleCallback(Handler.java:1095)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at cvvk.mz(:com.google.android.gms@260931035@26.09.31 (260400-877989800):1)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at cvvk.dispatchMessage(:com.google.android.gms@260931035@26.09.31 (260400-877989800):5)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at android.os.Looper.loopOnce(Looper.java:269)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at android.os.Looper.loop(Looper.java:367)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: Caused by: bgau: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgyl.a(:com.google.android.gms@260931035@26.09.31 (260400-877989800):15)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgcq.a(:com.google.android.gms@260931035@26.09.31 (260400-877989800):1)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	at bgcn.c(:com.google.android.gms@260931035@26.09.31 (260400-877989800):5)
+03-12 11:26:57.063 16971 16999 W FlagRegistrar: 	... 13 more
+03-12 11:26:57.077  1912  2729 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=6230, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]
+03-12 11:26:57.077  1912  2729 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=6230, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]
+03-12 11:26:57.081  1912  2729 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=6230, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]
+03-12 11:26:57.082  1912  2729 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=6230, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10440 RequestorUid: 10440 RequestorPkg: com.example.lotterappjava UnderlyingNetworks: Null] ]
+03-12 11:26:57.084  1912  2736 D ConnectivityService: NetReassign [6230 : null → 104] [c 0] [a 6] [i 14]
+03-12 11:26:57.103 15215 15336 I ekkq    : (REDACTED) [%s] SRM initial state for hotword: '%s'
+03-12 11:26:57.108  5008  5757 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with initial resourceIds: '%s.'
+03-12 11:26:57.118 16971 17011 I e.lotterappjava: hiddenapi: Accessing hidden field Ljava/net/Socket;->impl:Ljava/net/SocketImpl; (runtime_flags=0, domain=core-platform, api=unsupported) from Lcom/google/android/gms/org/conscrypt/Platform; (domain=app, TargetSdkVersion=36) using reflection: allowed
+03-12 11:26:57.122 15215 15341 I cvdk    : Getting hotwordModelConfig
+03-12 11:26:57.126 15215 15341 I cvdk    : MDD.refreshFileGroups(hotwordFileGroupPopulator)
+03-12 11:26:57.129 15215 15341 I cvcw    : (REDACTED) MDD.addFileGroup(%s)
+03-12 11:26:57.154 15215 15305 I cvdk    : (REDACTED) MDD get/download %s returned successful.
+03-12 11:26:57.155 15215 15319 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.157 15215 15338 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.158 15215 15305 I cvdk    : (REDACTED) MDD returned hotwordModelSpec %s
+03-12 11:26:57.158 15215 15336 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.159 15215 15338 I ZipLPPopulator: #addNewFileGroups complete
+03-12 11:26:57.159 15215 15338 I ZipLPPopulator: (REDACTED) MDD.getFileGroup(%s)
+03-12 11:26:57.161 15215 15338 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.163 15215 15338 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.166 15215 15338 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.166 15215 15338 I ZipLPPopulator: #addNewFileGroups complete
+03-12 11:26:57.166 15215 15338 I ZipLPPopulator: (REDACTED) MDD.getFileGroup(%s)
+03-12 11:26:57.169 15215 15320 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.170 15215 15320 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.171 15215 15336 I ZipLPPopulator: (REDACTED) Updated file group for group '%s' from location: %s
+03-12 11:26:57.172 15215 15320 I ZipLPPopulator: #addNewFileGroups complete
+03-12 11:26:57.172 15215 15320 I ZipLPPopulator: (REDACTED) MDD.getFileGroup(%s)
+03-12 11:26:57.173 15215 16954 I cvcw    : (REDACTED) MDD.addFileGroup(%s) returned %b
+03-12 11:26:57.173 15215 16954 I cvdk    : MDD refresh completed.
+03-12 11:26:57.182 15215 15320 I cvdk    : (REDACTED) Trying to get latest model with timeout: %dms.
+03-12 11:26:57.183 15215 15320 I cvdk    : Trying to get latest model bytes.
+03-12 11:26:57.183 15215 15320 I cvdk    : (REDACTED) Trying to get preloaded model for matching URL. (locale=%s)
+03-12 11:26:57.184 15215 15320 I cvdk    : Preloaded model not available. Attempting download.
+03-12 11:26:57.184 15215 15320 I cvdk    : Trying to get latest MDD Model bytes.
+03-12 11:26:57.186 15215 15320 I cvdk    : (REDACTED) MDD.getFileGroup(%s)
+03-12 11:26:57.192 16971 17011 I e.lotterappjava: hiddenapi: Accessing hidden method Ljava/security/spec/ECParameterSpec;->setCurveName(Ljava/lang/String;)V (runtime_flags=0, domain=core-platform, api=unsupported) from Lcom/google/android/gms/org/conscrypt/Platform; (domain=app, TargetSdkVersion=36) using reflection: allowed
+03-12 11:26:57.212 15215 15284 I ZipfileLPSourceImpl: (REDACTED) MDD.getFileGroup(%s) complete
+03-12 11:26:57.224 15215 15316 I ZipfileLPSourceImpl: (REDACTED) MDD.getFileGroup(%s) complete
+03-12 11:26:57.225 15215 15284 I ZipfileLPSourceImpl: (REDACTED) Found LanguagePack metadata file with path: %s
+03-12 11:26:57.226 15215 15316 I ZipfileLPSourceImpl: (REDACTED) Found LanguagePack metadata file with path: %s
+03-12 11:26:57.228 15215 15284 I ZipfileLPSourceImpl: (REDACTED) Returning LanguagePack path for locale %s, version %d from MDD with group name '%s': '%s'
+03-12 11:26:57.229 15215 15284 I ZipfileLPSourceImpl: (REDACTED) MDD.getFileGroup(%s) complete
+03-12 11:26:57.229 15215 15284 I ZipfileLPSourceImpl: (REDACTED) Found LanguagePack metadata file with path: %s
+03-12 11:26:57.230 15215 15284 I ZipfileLPSourceImpl: (REDACTED) Returning LanguagePack path for locale %s, version %d from MDD with group name '%s': '%s'
+03-12 11:26:57.231 15215 15316 I ZipfileLPSourceImpl: (REDACTED) Returning LanguagePack path for locale %s, version %d from MDD with group name '%s': '%s'
+03-12 11:26:57.234 15215 15320 I ekkq    : (REDACTED) [%s] Installed LanguagePacks: %s
+03-12 11:26:57.235 15215 15336 I cvdk    : (REDACTED) MDD.downloadFileGroup(%s)
+03-12 11:26:57.237 15215 15320 I ekkq    : (REDACTED) [%s] Pending pack: %s
+03-12 11:26:57.250 15215 15336 I cvdk    : (REDACTED) HotwordModel returned with path: %s
+03-12 11:26:57.254 15215 15336 I cvdk    : (REDACTED) Scraping model ID for model of size %d
+03-12 11:26:57.254 15215 15336 I cvdk    : (REDACTED) Scraped model ID: %s
+03-12 11:26:57.257 15215 15316 I cvdk    : (REDACTED) MDD get/download %s returned successful.
+03-12 11:26:57.257 15215 15316 I cvdk    : (REDACTED) MDD returned hotwordModelSpec %s
+03-12 11:26:57.261 15215 15305 I ekpr    : (REDACTED) Returning hotword model with ID: %s
+03-12 11:26:57.284 16931 16983 W adbd    : timed out while waiting for FUNCTIONFS_BIND, trying again
+03-12 11:26:57.284 16931 16983 I adbd    : UsbFfs: connection terminated: monitor thread finished
+03-12 11:26:57.303 16931 16937 I adbd    : opening control endpoint /dev/usb-ffs/adb/ep0
+03-12 11:26:57.305  5008  5778 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with updated resourceIds: %s. Total set: %s
+03-12 11:26:57.310  5008  5012 W hbox:interactor: Suspending all threads took: 6.182ms
+03-12 11:26:57.311  5008  5778 I eklg    : (REDACTED) <<< [%s] SodaResourceManager session emitted all requested resources: %s. Ok to terminate.
+03-12 11:26:57.323 15215 15336 I cvdk    : (REDACTED) HotwordModel returned with path: %s
+03-12 11:26:57.326 15215 15336 I cvdk    : (REDACTED) Scraping model ID for model of size %d
+03-12 11:26:57.326 15215 15336 I cvdk    : (REDACTED) Scraped model ID: %s
+03-12 11:26:57.332 15215 15316 I ekpr    : (REDACTED) Returning hotword model with ID: %s
+03-12 11:26:57.341 15215 15339 I ekkq    : (REDACTED) [%s] #getLatestServerTisidVoiceprint: %s
+03-12 11:26:57.341 15215 15339 I ekkq    : (REDACTED) [%s] Server Tisid voiceprint queries skipped because ServerTisid-specific flag is disabled.
+03-12 11:26:57.359 15215 15325 I cvfn    : #getTisidModel
+03-12 11:26:57.360 15215 15325 I cvfn    : #initialize
+03-12 11:26:57.361 15215 15319 I cvfn    : #getTdsidModel
+03-12 11:26:57.374 15215 15319 I cvfn    : #getTdsidModel
+03-12 11:26:57.401  5008  5757 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with updated resourceIds: %s. Total set: %s
+03-12 11:26:57.402  5008  5757 I eklg    : (REDACTED) <<< [%s] SodaResourceManager session emitted all requested resources: %s. Ok to terminate.
+03-12 11:26:57.408 15215 15305 I cvfn    : Didn't find an initialized EnrollmentManager. Updating config.
+03-12 11:26:57.409 15215 15305 I A       : (REDACTED) updateConfig: Hotword present: %b, LP directory: %s
+03-12 11:26:57.609 15215 15339 I native  : I0000 00:00:1773336417.592391   15339 enrollment_manager_impl.cc:454] UpdateConfigRequest with timeout: 0
+03-12 11:26:57.781 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:57.788 15215 15391 I native  : I0000 00:00:1773336417.788723   15391 enrollment_manager_impl.cc:1323] A valid TD-SID creator already exists. No need to re-create.
+03-12 11:26:57.806 16971 16971 D EventController: Event created/updated with ID: test_event_1773336416843
+03-12 11:26:57.818 15215 15391 I native  : I0000 00:00:1773336417.817913   15391 enrollment_manager_impl_utils.cc:81] Using standalone TI-SID pipeline config:/data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1726000960651/configs/ONDEVICE_LARGE_VOICE_MATCH.config
+03-12 11:26:57.819 15215 15391 I native  : I0000 00:00:1773336417.819593   15391 enrollment_manager_impl.cc:1343] A valid TI-SID creator already exists. No need to re-create.
+03-12 11:26:57.819 15215 15391 I native  : I0000 00:00:1773336417.819932   15391 enrollment_manager_impl_utils.cc:81] Using standalone TI-SID pipeline config:/data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1726000960651/configs/ONDEVICE_LARGE_VOICE_MATCH.config
+03-12 11:26:57.820 15215 15391 I native  : I0000 00:00:1773336417.820009   15391 enrollment_manager_impl.cc:1066] Attempting to insert stored TD-SID profiles into config.
+03-12 11:26:57.849 15215 15391 I native  : I0000 00:00:1773336417.849596   15391 enrollment_manager_impl.cc:1090] Found 1 speakers with existing TDSID models.
+03-12 11:26:57.890 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:57.890 15215 15391 I native  : I0000 00:00:1773336417.890280   15391 enrollment_manager_impl.cc:1106] Found valid TDSID profile for user: 0
+03-12 11:26:57.904 15215 15391 I native  : I0000 00:00:1773336417.903959   15391 enrollment_manager_impl.cc:1428] Retrieved stored TDSID models. Speakers requiring re-training:0
+03-12 11:26:57.904 15215 15391 I native  : I0000 00:00:1773336417.904165   15391 enrollment_manager_impl.cc:1139] Attempting to insert stored TI-SID profiles into config.
+03-12 11:26:57.904 15215 15391 I native  : I0000 00:00:1773336417.904504   15391 enrollment_manager_impl.cc:1164] Found 1 speakers with existing TI-SID models.
+03-12 11:26:57.920 15215 15391 I native  : I0000 00:00:1773336417.920468   15391 enrollment_manager_impl.cc:1180] Found valid TI-SID profile for user: 0
+03-12 11:26:57.926 15215 15391 I native  : I0000 00:00:1773336417.925955   15391 enrollment_manager_impl.cc:1441] Retrieved stored TISID models. Speakers requiring re-training:0
+03-12 11:26:57.944 15215 15391 E native  : E0000 00:00:1773336417.940174   15391 enrollment_storage.cc:177] Failed to read model:NOT_FOUND: Speaker does not have Server TISID voiceprint [type.googleapis.com/speech.soda.speaker_id.ReadModelStatus='\x08\x14']
+03-12 11:26:57.944 15215 15391 E native  : === Source Location Trace: ===
+03-12 11:26:57.944 15215 15391 E native  : speech/soda/speaker_id/enrollment/enrollment_storage.cc:228
+03-12 11:26:57.944 15215 15391 I native  : I0000 00:00:1773336417.944757   15391 enrollment_manager_impl.cc:1451] Retrieved Server TISID models.
+03-12 11:26:57.955 15215 15339 I A       : (REDACTED) handleResponse for  %s user(s)
+03-12 11:26:57.956 15215 15391 I native  : I0000 00:00:1773336417.956026   15391 enrollment_manager_impl.cc:467] Invoking listeners with updated speaker profiles.
+03-12 11:26:57.956 15215 15339 I A       : (REDACTED) Found SodaVmmmClassicWriter. Preparing to propagate model update for status: %s
+03-12 11:26:57.956 15215 15339 I A       : Skipping model update propagation to SodaVmmmClassicWriter since speaker model did not change.
+03-12 11:26:57.960 15215 15339 I A       : #handleModelUpdate
+03-12 11:26:57.960 15215 15339 I A       : (REDACTED) # of TDSID models received: %s
+03-12 11:26:57.961 15215 15339 I A       : (REDACTED) Size of TI-SID model bytestring received: %s
+03-12 11:26:57.961 15215 15339 I A       : (REDACTED) # of Server TI-SID voiceprints received: %s
+03-12 11:26:57.961 15215 15339 I A       : getTextIndependentSpeakerIdModels
+03-12 11:26:57.962 15215 15339 I cvfn    : (REDACTED) Returning TisidModel: %s bytes
+03-12 11:26:57.963 15215 15339 I cvfn    : #initialize
+03-12 11:26:57.972 15215 15284 I cvfn    : Already has an initialized EnrollmentManager.
+03-12 11:26:57.975 15215 15319 I A       : getHotwordSpeakerIdModels
+03-12 11:26:57.975 15215 15319 I cvfn    : (REDACTED) Returning SpeakerIdModel: %s bytes
+03-12 11:26:57.976 15215 15319 I cvfn    : #initialize
+03-12 11:26:57.981 15215 15339 I cvfn    : #getTdsidModel
+03-12 11:26:58.013 15215 15341 I cvfn    : Didn't find an initialized EnrollmentManager. Updating config.
+03-12 11:26:58.014 15215 15341 I A       : (REDACTED) updateConfig: Hotword present: %b, LP directory: %s
+03-12 11:26:58.016  5008  5757 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with updated resourceIds: %s. Total set: %s
+03-12 11:26:58.017  5008  5757 I eklg    : (REDACTED) <<< [%s] SodaResourceManager session emitted all requested resources: %s. Ok to terminate.
+03-12 11:26:58.024 15215 15339 I native  : I0000 00:00:1773336418.024797   15339 enrollment_manager_impl.cc:454] UpdateConfigRequest with timeout: 0
+03-12 11:26:58.073 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:58.077 15215 15391 I native  : I0000 00:00:1773336418.077777   15391 enrollment_manager_impl.cc:1323] A valid TD-SID creator already exists. No need to re-create.
+03-12 11:26:58.078 15215 15391 W native  : W0000 00:00:1773336418.077978   15391 language_pack_utils.cc:222] Neither language pack directory nor config file path is set.
+03-12 11:26:58.078 15215 15391 W native  : W0000 00:00:1773336418.078124   15391 enrollment_manager_impl_utils.cc:85] No standalone TI-SID pipeline config found:INVALID_ARGUMENT: Could not determine LP directory.
+03-12 11:26:58.078 15215 15391 W native  : === Source Location Trace: ===
+03-12 11:26:58.078 15215 15391 W native  : speech/soda/utils/language_pack_utils.cc:391
+03-12 11:26:58.078 15215 15391 W native  : W0000 00:00:1773336418.078215   15391 enrollment_manager_impl.cc:1340] Could not determine TI-SID version:INVALID_ARGUMENT: No provided LP directory.
+03-12 11:26:58.078 15215 15391 W native  : === Source Location Trace: ===
+03-12 11:26:58.078 15215 15391 W native  : speech/soda/utils/language_pack_utils.cc:310
+03-12 11:26:58.078 15215 15391 W native  : speech/soda/speaker_id/enrollment/enrollment_manager_impl_utils.cc:98
+03-12 11:26:58.078 15215 15391 W native  : W0000 00:00:1773336418.078283   15391 language_pack_utils.cc:222] Neither language pack directory nor config file path is set.
+03-12 11:26:58.079 15215 15391 W native  : W0000 00:00:1773336418.079460   15391 enrollment_manager_impl_utils.cc:85] No standalone TI-SID pipeline config found:INVALID_ARGUMENT: Could not determine LP directory.
+03-12 11:26:58.079 15215 15391 W native  : === Source Location Trace: ===
+03-12 11:26:58.079 15215 15391 W native  : speech/soda/utils/language_pack_utils.cc:391
+03-12 11:26:58.079 15215 15391 W native  : W0000 00:00:1773336418.079533   15391 enrollment_manager_impl.cc:1359] Unable to select ASR config path: INVALID_ARGUMENT: No provided LP directory.
+03-12 11:26:58.079 15215 15391 W native  : === Source Location Trace: ===
+03-12 11:26:58.079 15215 15391 W native  : speech/soda/utils/language_pack_utils.cc:310
+03-12 11:26:58.079 15215 15391 I native  : I0000 00:00:1773336418.079596   15391 enrollment_manager_impl.cc:1066] Attempting to insert stored TD-SID profiles into config.
+03-12 11:26:58.081 15215 15391 I native  : I0000 00:00:1773336418.081611   15391 enrollment_manager_impl.cc:1090] Found 1 speakers with existing TDSID models.
+03-12 11:26:58.111 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:58.112 15215 15391 I native  : I0000 00:00:1773336418.112035   15391 enrollment_manager_impl.cc:1106] Found valid TDSID profile for user: 0
+03-12 11:26:58.115 15215 15391 I native  : I0000 00:00:1773336418.115408   15391 enrollment_manager_impl.cc:1428] Retrieved stored TDSID models. Speakers requiring re-training:0
+03-12 11:26:58.115 15215 15391 I native  : I0000 00:00:1773336418.115555   15391 enrollment_manager_impl.cc:1139] Attempting to insert stored TI-SID profiles into config.
+03-12 11:26:58.115 15215 15391 I native  : I0000 00:00:1773336418.115839   15391 enrollment_manager_impl.cc:1164] Found 1 speakers with existing TI-SID models.
+03-12 11:26:58.117 15215 15391 I native  : I0000 00:00:1773336418.117362   15391 enrollment_manager_impl.cc:1180] Found valid TI-SID profile for user: 0
+03-12 11:26:58.120 15215 15391 I native  : I0000 00:00:1773336418.120025   15391 enrollment_manager_impl.cc:1441] Retrieved stored TISID models. Speakers requiring re-training:0
+03-12 11:26:58.120 15215 15391 E native  : E0000 00:00:1773336418.120317   15391 enrollment_storage.cc:177] Failed to read model:NOT_FOUND: Speaker does not have Server TISID voiceprint [type.googleapis.com/speech.soda.speaker_id.ReadModelStatus='\x08\x14']
+03-12 11:26:58.120 15215 15391 E native  : === Source Location Trace: ===
+03-12 11:26:58.120 15215 15391 E native  : speech/soda/speaker_id/enrollment/enrollment_storage.cc:228
+03-12 11:26:58.120 15215 15391 I native  : I0000 00:00:1773336418.120413   15391 enrollment_manager_impl.cc:1451] Retrieved Server TISID models.
+03-12 11:26:58.128 15215 15391 I native  : I0000 00:00:1773336418.128500   15391 enrollment_manager_impl.cc:467] Invoking listeners with updated speaker profiles.
+03-12 11:26:58.130 15215 15339 I A       : (REDACTED) handleResponse for  %s user(s)
+03-12 11:26:58.130 15215 15339 I A       : (REDACTED) Found SodaVmmmClassicWriter. Preparing to propagate model update for status: %s
+03-12 11:26:58.130 15215 15339 I A       : Skipping model update propagation to SodaVmmmClassicWriter since speaker model did not change.
+03-12 11:26:58.132 15215 15339 I A       : #handleModelUpdate
+03-12 11:26:58.132 15215 15339 I A       : (REDACTED) # of TDSID models received: %s
+03-12 11:26:58.132 15215 15339 I A       : (REDACTED) Size of TI-SID model bytestring received: %s
+03-12 11:26:58.132 15215 15339 I A       : (REDACTED) # of Server TI-SID voiceprints received: %s
+03-12 11:26:58.133 15215 15335 I A       : getHotwordSpeakerIdModels
+03-12 11:26:58.133 15215 15335 I cvfn    : (REDACTED) Returning SpeakerIdModel: %s bytes
+03-12 11:26:58.134 15215 15325 I cvfn    : #initialize
+03-12 11:26:58.134 15215 15335 I ekkq    : (REDACTED) [%s] SRM initial state for TD-SID: '%s'
+03-12 11:26:58.140  5008  5778 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with initial resourceIds: '%s.'
+03-12 11:26:58.140  5008  5778 I eklg    : (REDACTED) <<< [%s] SodaResourceManager session emitted all requested resources: %s. Ok to terminate.
+03-12 11:26:58.141  5008  5778 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with initial resourceIds: '%s.'
+03-12 11:26:58.141  5008  5778 I eklg    : (REDACTED) <<< [%s] SodaResourceManager session emitted all requested resources: %s. Ok to terminate.
+03-12 11:26:58.145  5008  5758 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with initial resourceIds: '%s.'
+03-12 11:26:58.146  5008  5758 I eklg    : (REDACTED) <<< [%s] SodaResourceManager session emitted all requested resources: %s. Ok to terminate.
+03-12 11:26:58.147  5008  5757 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with initial resourceIds: '%s.'
+03-12 11:26:58.147  5008  5757 I eklg    : (REDACTED) <<< [%s] SodaResourceManager session emitted all requested resources: %s. Ok to terminate.
+03-12 11:26:58.191 15215 15305 I cvfn    : Didn't find an initialized EnrollmentManager. Updating config.
+03-12 11:26:58.192 15215 15305 I A       : (REDACTED) updateConfig: Hotword present: %b, LP directory: %s
+03-12 11:26:58.200 15215 15325 I native  : I0000 00:00:1773336418.199975   15325 enrollment_manager_impl.cc:454] UpdateConfigRequest with timeout: 0
+03-12 11:26:58.242 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:58.246 15215 15391 I native  : I0000 00:00:1773336418.246191   15391 enrollment_manager_impl.cc:1323] A valid TD-SID creator already exists. No need to re-create.
+03-12 11:26:58.246 15215 15391 I native  : I0000 00:00:1773336418.246570   15391 enrollment_manager_impl_utils.cc:81] Using standalone TI-SID pipeline config:/data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1726000960651/configs/ONDEVICE_LARGE_VOICE_MATCH.config
+03-12 11:26:58.248 15215 15391 I native  : I0000 00:00:1773336418.248006   15391 enrollment_manager_impl.cc:1343] A valid TI-SID creator already exists. No need to re-create.
+03-12 11:26:58.248 15215 15391 I native  : I0000 00:00:1773336418.248281   15391 enrollment_manager_impl_utils.cc:81] Using standalone TI-SID pipeline config:/data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1726000960651/configs/ONDEVICE_LARGE_VOICE_MATCH.config
+03-12 11:26:58.248 15215 15391 I native  : I0000 00:00:1773336418.248335   15391 enrollment_manager_impl.cc:1066] Attempting to insert stored TD-SID profiles into config.
+03-12 11:26:58.248 15215 15391 I native  : I0000 00:00:1773336418.248607   15391 enrollment_manager_impl.cc:1090] Found 1 speakers with existing TDSID models.
+03-12 11:26:58.279 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:58.280 15215 15391 I native  : I0000 00:00:1773336418.280222   15391 enrollment_manager_impl.cc:1106] Found valid TDSID profile for user: 0
+03-12 11:26:58.283 15215 15391 I native  : I0000 00:00:1773336418.283449   15391 enrollment_manager_impl.cc:1428] Retrieved stored TDSID models. Speakers requiring re-training:0
+03-12 11:26:58.283 15215 15391 I native  : I0000 00:00:1773336418.283560   15391 enrollment_manager_impl.cc:1139] Attempting to insert stored TI-SID profiles into config.
+03-12 11:26:58.283 15215 15391 I native  : I0000 00:00:1773336418.283811   15391 enrollment_manager_impl.cc:1164] Found 1 speakers with existing TI-SID models.
+03-12 11:26:58.284 15215 15391 I native  : I0000 00:00:1773336418.284356   15391 enrollment_manager_impl.cc:1180] Found valid TI-SID profile for user: 0
+03-12 11:26:58.286 15215 15391 I native  : I0000 00:00:1773336418.286886   15391 enrollment_manager_impl.cc:1441] Retrieved stored TISID models. Speakers requiring re-training:0
+03-12 11:26:58.287 15215 15391 E native  : E0000 00:00:1773336418.287211   15391 enrollment_storage.cc:177] Failed to read model:NOT_FOUND: Speaker does not have Server TISID voiceprint [type.googleapis.com/speech.soda.speaker_id.ReadModelStatus='\x08\x14']
+03-12 11:26:58.287 15215 15391 E native  : === Source Location Trace: ===
+03-12 11:26:58.287 15215 15391 E native  : speech/soda/speaker_id/enrollment/enrollment_storage.cc:228
+03-12 11:26:58.287 15215 15391 I native  : I0000 00:00:1773336418.287313   15391 enrollment_manager_impl.cc:1451] Retrieved Server TISID models.
+03-12 11:26:58.293 15215 15325 I A       : (REDACTED) handleResponse for  %s user(s)
+03-12 11:26:58.293 15215 15391 I native  : I0000 00:00:1773336418.293813   15391 enrollment_manager_impl.cc:467] Invoking listeners with updated speaker profiles.
+03-12 11:26:58.294 15215 15325 I A       : (REDACTED) Found SodaVmmmClassicWriter. Preparing to propagate model update for status: %s
+03-12 11:26:58.294 15215 15325 I A       : Skipping model update propagation to SodaVmmmClassicWriter since speaker model did not change.
+03-12 11:26:58.294 15215 15325 I A       : #handleModelUpdate
+03-12 11:26:58.295 15215 15325 I A       : (REDACTED) # of TDSID models received: %s
+03-12 11:26:58.295 15215 15325 I A       : (REDACTED) Size of TI-SID model bytestring received: %s
+03-12 11:26:58.296 15215 15325 I A       : (REDACTED) # of Server TI-SID voiceprints received: %s
+03-12 11:26:58.296 15215 15325 I A       : getHotwordSpeakerIdModels
+03-12 11:26:58.296 15215 15325 I cvfn    : (REDACTED) Returning SpeakerIdModel: %s bytes
+03-12 11:26:58.297 15215 15335 I ekib    : (REDACTED) [%s] Writing SpeakerId model with size %d
+03-12 11:26:58.300 15215 15335 I cvfn    : #getTdsidModel
+03-12 11:26:58.302 15215 15335 I cvfn    : #initialize
+03-12 11:26:58.308 15215 15305 I cvfn    : Didn't find an initialized EnrollmentManager. Updating config.
+03-12 11:26:58.308 15215 15305 I A       : (REDACTED) updateConfig: Hotword present: %b, LP directory: %s
+03-12 11:26:58.312 16931 17015 W adbd    : timed out while waiting for FUNCTIONFS_BIND, trying again
+03-12 11:26:58.312 16931 17015 I adbd    : UsbFfs: connection terminated: monitor thread finished
+03-12 11:26:58.315 15215 15339 I native  : I0000 00:00:1773336418.315398   15339 enrollment_manager_impl.cc:454] UpdateConfigRequest with timeout: 0
+03-12 11:26:58.315  5008  5758 I eklg    : (REDACTED) <<< [%s] Reading SodaResourceManager message with updated resourceIds: %s. Total set: %s
+03-12 11:26:58.315  5008  5758 I eklg    : (REDACTED) <<< [%s] SodaResourceManager session emitted all requested resources: %s. Ok to terminate.
+03-12 11:26:58.332 16931 16937 I adbd    : opening control endpoint /dev/usb-ffs/adb/ep0
+03-12 11:26:58.353 15215 15339 I ekib    : (REDACTED) [%s] All resources wrote to PDS and notified client.
+03-12 11:26:58.353 15215 15339 I ekib    : (REDACTED) [%s] hotwordLatency: %d, tdsidLatency: %d, All resources latency: %d
+03-12 11:26:58.354 15215 15341 I eklt    : (REDACTED) [%s] Returning ResourceResponse.
+03-12 11:26:58.355 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:58.358  5008  5757 I eklg    : (REDACTED) [%s] SRM session terminated after all resources accounted for: %s.
+03-12 11:26:58.359 15215 15391 I native  : I0000 00:00:1773336418.359648   15391 enrollment_manager_impl.cc:1323] A valid TD-SID creator already exists. No need to re-create.
+03-12 11:26:58.360 15215 15391 I native  : I0000 00:00:1773336418.360032   15391 enrollment_manager_impl_utils.cc:81] Using standalone TI-SID pipeline config:/data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1726000960651/configs/ONDEVICE_LARGE_VOICE_MATCH.config
+03-12 11:26:58.360 15215 15391 I native  : I0000 00:00:1773336418.360732   15391 enrollment_manager_impl.cc:1343] A valid TI-SID creator already exists. No need to re-create.
+03-12 11:26:58.361 15215 15391 I native  : I0000 00:00:1773336418.361153   15391 enrollment_manager_impl_utils.cc:81] Using standalone TI-SID pipeline config:/data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1726000960651/configs/ONDEVICE_LARGE_VOICE_MATCH.config
+03-12 11:26:58.361 15215 15391 I native  : I0000 00:00:1773336418.361251   15391 enrollment_manager_impl.cc:1066] Attempting to insert stored TD-SID profiles into config.
+03-12 11:26:58.361 15215 15391 I native  : I0000 00:00:1773336418.361558   15391 enrollment_manager_impl.cc:1090] Found 1 speakers with existing TDSID models.
+03-12 11:26:58.372  5008  5629 I ejsk    : #updateSodaResourcesWithoutReload
+03-12 11:26:58.373  5008  5753 I ejsk    : #updateSodaResourcesWithoutReload inside sequencer
+03-12 11:26:58.374  5008  5629 I ejsk    : #checkAsrCompatibility inside sequencer
+03-12 11:26:58.375  5008  5629 I ejsk    : (REDACTED) #checkAsrCompatibility initializing Soda. Locale: %s. Expected LP version: %d
+03-12 11:26:58.375  5008  5629 I ejsk    : (REDACTED) Soda cache directory: %s
+03-12 11:26:58.375  5008  5629 I ejsk    : Hotmatch disabled: flag not enabled
+03-12 11:26:58.376  5008  5629 I ekfy    : SODA instance exists and matches params. Updating callbacks and returning preloaded instance.
+03-12 11:26:58.379  5008  5629 I ejsk    : #checkAsrCompatibility successful!
+03-12 11:26:58.381  5008  5629 I ejtj    : Compatcheck success for background update.
+03-12 11:26:58.382  5008  5629 I ejsk    : #backgroundUpdate
+03-12 11:26:58.382  5008  5629 I ejsk    : #backgroundUpdate inside sequencer
+03-12 11:26:58.382  5008  5594 I ejsk    : #backgroundUpdate using the existing ASR soda instance.
+03-12 11:26:58.399  5008  5594 I native  : I0000 00:00:1773336418.399551    5594 context-module-impl.cc:801] Update context input. (Proto:MessageLite at 0xb400006fed773450)
+03-12 11:26:58.399 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:58.400 15215 15391 I native  : I0000 00:00:1773336418.400028   15391 enrollment_manager_impl.cc:1106] Found valid TDSID profile for user: 0
+03-12 11:26:58.402 15215 15391 I native  : I0000 00:00:1773336418.402538   15391 enrollment_manager_impl.cc:1428] Retrieved stored TDSID models. Speakers requiring re-training:0
+03-12 11:26:58.402 15215 15391 I native  : I0000 00:00:1773336418.402743   15391 enrollment_manager_impl.cc:1139] Attempting to insert stored TI-SID profiles into config.
+03-12 11:26:58.403 15215 15391 I native  : I0000 00:00:1773336418.403086   15391 enrollment_manager_impl.cc:1164] Found 1 speakers with existing TI-SID models.
+03-12 11:26:58.403 15215 15391 I native  : I0000 00:00:1773336418.403698   15391 enrollment_manager_impl.cc:1180] Found valid TI-SID profile for user: 0
+03-12 11:26:58.403  5008  5594 I native  : I0000 00:00:1773336418.403699    5594 context-module-impl.cc:808] Update context input for public scope. (Proto:MessageLite at 0xb400006fed773450)
+03-12 11:26:58.405  5008  5594 I ejtj    : #backgroundBiasingUpdate succeeded.
+03-12 11:26:58.406 15215 15391 I native  : I0000 00:00:1773336418.406239   15391 enrollment_manager_impl.cc:1441] Retrieved stored TISID models. Speakers requiring re-training:0
+03-12 11:26:58.406 15215 15391 E native  : E0000 00:00:1773336418.406546   15391 enrollment_storage.cc:177] Failed to read model:NOT_FOUND: Speaker does not have Server TISID voiceprint [type.googleapis.com/speech.soda.speaker_id.ReadModelStatus='\x08\x14']
+03-12 11:26:58.406 15215 15391 E native  : === Source Location Trace: ===
+03-12 11:26:58.406 15215 15391 E native  : speech/soda/speaker_id/enrollment/enrollment_storage.cc:228
+03-12 11:26:58.406 15215 15391 I native  : I0000 00:00:1773336418.406715   15391 enrollment_manager_impl.cc:1451] Retrieved Server TISID models.
+03-12 11:26:58.413 15215 15335 I A       : (REDACTED) handleResponse for  %s user(s)
+03-12 11:26:58.414 15215 15335 I A       : (REDACTED) Found SodaVmmmClassicWriter. Preparing to propagate model update for status: %s
+03-12 11:26:58.414 15215 15391 I native  : I0000 00:00:1773336418.414350   15391 enrollment_manager_impl.cc:467] Invoking listeners with updated speaker profiles.
+03-12 11:26:58.414 15215 15335 I A       : Skipping model update propagation to SodaVmmmClassicWriter since speaker model did not change.
+03-12 11:26:58.417  5008  5778 I dyzw    : (REDACTED) Sending speech biasing context update to SODA with locale %s. %s
+03-12 11:26:58.419 15215 15335 I A       : #handleModelUpdate
+03-12 11:26:58.419  5008  5695 I ejsk    : #checkAsrCompatibility inside sequencer
+03-12 11:26:58.419 15215 15335 I A       : (REDACTED) # of TDSID models received: %s
+03-12 11:26:58.419 15215 15335 I A       : (REDACTED) Size of TI-SID model bytestring received: %s
+03-12 11:26:58.419  5008  5695 I ejsk    : (REDACTED) #checkAsrCompatibility initializing Soda. Locale: %s. Expected LP version: %d
+03-12 11:26:58.419 15215 15335 I A       : (REDACTED) # of Server TI-SID voiceprints received: %s
+03-12 11:26:58.419  5008  5695 I ejsk    : (REDACTED) Soda cache directory: %s
+03-12 11:26:58.420  5008  5695 I ejsk    : Hotmatch disabled: flag not enabled
+03-12 11:26:58.420 15215 15335 I A       : getHotwordSpeakerIdModels
+03-12 11:26:58.420  5008  5778 I ejtj    : (REDACTED) #getSodaAsrUpdateRequest inserting app domain: %s
+03-12 11:26:58.420  5008  5695 I ekfy    : SODA instance exists and matches params. Updating callbacks and returning preloaded instance.
+03-12 11:26:58.420 15215 15335 I cvfn    : (REDACTED) Returning SpeakerIdModel: %s bytes
+03-12 11:26:58.420  5008  5695 I ejsk    : #checkAsrCompatibility successful!
+03-12 11:26:58.424  5008  5695 I ejtj    : Compatcheck success for background update.
+03-12 11:26:58.424  5008  5695 I ejsk    : #backgroundUpdate
+03-12 11:26:58.425  5008  5695 I ejsk    : #backgroundUpdate inside sequencer
+03-12 11:26:58.425  5008  5684 I ejsk    : #backgroundUpdate using the existing ASR soda instance.
+03-12 11:26:58.428 15215 15335 I cvfn    : #getTdsidModel
+03-12 11:26:58.430  5008  5629 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.430 15215 15335 I cvfn    : #initialize
+03-12 11:26:58.432  5008  5684 I native  : I0000 00:00:1773336418.432203    5684 context-module-impl.cc:801] Update context input. (Proto:MessageLite at 0xb400006fed7bc650)
+03-12 11:26:58.435 15215 15341 I cvfn    : Didn't find an initialized EnrollmentManager. Updating config.
+03-12 11:26:58.435 15215 15341 I A       : (REDACTED) updateConfig: Hotword present: %b, LP directory: %s
+03-12 11:26:58.437  5008  5684 I native  : I0000 00:00:1773336418.437656    5684 context-module-impl.cc:808] Update context input for public scope. (Proto:MessageLite at 0xb400006fed7bc650)
+03-12 11:26:58.438  5008  5684 I ejtj    : #backgroundBiasingUpdate succeeded.
+03-12 11:26:58.440 15215 15335 I native  : I0000 00:00:1773336418.440590   15335 enrollment_manager_impl.cc:454] UpdateConfigRequest with timeout: 0
+03-12 11:26:58.441  5008  5757 I dyzw    : (REDACTED) Sending speech biasing context update to SODA with locale %s. %s
+03-12 11:26:58.441  5008  5594 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.444  5008  5758 I ejtj    : (REDACTED) #getSodaAsrUpdateRequest inserting app domain: %s
+03-12 11:26:58.445  5008  5695 I ejsk    : #checkAsrCompatibility inside sequencer
+03-12 11:26:58.445  5008  5695 I ejsk    : (REDACTED) #checkAsrCompatibility initializing Soda. Locale: %s. Expected LP version: %d
+03-12 11:26:58.445  5008  5753 I athl    : #getOobeStatus: OptedOut [CONTEXT ratelimit_period="10 SECONDS" skipped=2 ]
+03-12 11:26:58.445  5008  5695 I ejsk    : (REDACTED) Soda cache directory: %s
+03-12 11:26:58.445  5008  5753 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.445  5008  5695 I ejsk    : Hotmatch disabled: flag not enabled
+03-12 11:26:58.445  5008  5695 I ekfy    : SODA instance exists and matches params. Updating callbacks and returning preloaded instance.
+03-12 11:26:58.448  5008  5778 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.449  5008  5695 I ejsk    : #checkAsrCompatibility successful!
+03-12 11:26:58.452  5008  5695 I ejtj    : Compatcheck success for background update.
+03-12 11:26:58.452  5008  5695 I ejsk    : #backgroundUpdate
+03-12 11:26:58.453  5008  5695 I ejsk    : #backgroundUpdate inside sequencer
+03-12 11:26:58.453  5008  5629 I ejsk    : #backgroundUpdate using the existing ASR soda instance.
+03-12 11:26:58.462  5008  5629 I native  : I0000 00:00:1773336418.461885    5629 context-module-impl.cc:801] Update context input. (Proto:MessageLite at 0xb400006fed773150)
+03-12 11:26:58.473  5008  5629 I native  : I0000 00:00:1773336418.473728    5629 context-module-impl.cc:808] Update context input for public scope. (Proto:MessageLite at 0xb400006fed773150)
+03-12 11:26:58.474  5008  5629 I ejtj    : #backgroundBiasingUpdate succeeded.
+03-12 11:26:58.476  5008  5684 I ejsk    : #checkAsrCompatibility inside sequencer
+03-12 11:26:58.476  5008  5833 I dyzw    : (REDACTED) Sending speech biasing context update to SODA with locale %s. %s
+03-12 11:26:58.476  5008  5684 I ejsk    : (REDACTED) #checkAsrCompatibility initializing Soda. Locale: %s. Expected LP version: %d
+03-12 11:26:58.476  5008  5684 I ejsk    : (REDACTED) Soda cache directory: %s
+03-12 11:26:58.476  5008  5629 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.476  5008  5684 I ejsk    : Hotmatch disabled: flag not enabled
+03-12 11:26:58.476  5008  5684 I ekfy    : SODA instance exists and matches params. Updating callbacks and returning preloaded instance.
+03-12 11:26:58.477  5008  5684 I ejsk    : #checkAsrCompatibility successful!
+03-12 11:26:58.477  5008  5753 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.478  5008  5779 I ejtj    : (REDACTED) #getSodaAsrUpdateRequest inserting app domain: %s
+03-12 11:26:58.478  5008  5695 I ejtj    : Compatcheck success for background update.
+03-12 11:26:58.478  5008  5695 I ejsk    : #backgroundUpdate
+03-12 11:26:58.479  5008  5695 I ejsk    : #backgroundUpdate inside sequencer
+03-12 11:26:58.479  5008  5695 I ejsk    : #backgroundUpdate using the existing ASR soda instance.
+03-12 11:26:58.479  5008  5695 I ejtj    : #backgroundBiasingUpdate succeeded.
+03-12 11:26:58.480  5008  5778 I dyzw    : (REDACTED) SODA speech biasing context update for %s is complete. %s
+03-12 11:26:58.482  5008  5594 I ejsk    : #checkAsrCompatibility inside sequencer
+03-12 11:26:58.483  5008  5594 I ejsk    : (REDACTED) #checkAsrCompatibility initializing Soda. Locale: %s. Expected LP version: %d
+03-12 11:26:58.483  5008  5594 I ejsk    : (REDACTED) Soda cache directory: %s
+03-12 11:26:58.483  5008  5594 I ejsk    : Hotmatch disabled: flag not enabled
+03-12 11:26:58.483  5008  5594 I ekfy    : SODA instance exists and matches params. Updating callbacks and returning preloaded instance.
+03-12 11:26:58.483  5008  5778 I dyzh    : (REDACTED) Successfully scheduled context update for key: %s for %s.
+03-12 11:26:58.484  5008  5594 I ejsk    : #checkAsrCompatibility successful!
+03-12 11:26:58.485 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:58.485  5008  5629 I ejtj    : Compatcheck success for background update.
+03-12 11:26:58.485  5008  5629 I ejsk    : #backgroundUpdate
+03-12 11:26:58.486  5008  5629 I ejsk    : #backgroundUpdate inside sequencer
+03-12 11:26:58.486  5008  5695 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.486  5008  5629 I ejsk    : #backgroundUpdate using the existing ASR soda instance.
+03-12 11:26:58.487  5008  5629 I ejtj    : #backgroundBiasingUpdate succeeded.
+03-12 11:26:58.487  5008  5758 I dyzw    : (REDACTED) SODA speech biasing context update for %s is complete. %s
+03-12 11:26:58.488  5008  5758 I dyzh    : (REDACTED) Successfully scheduled context update for key: %s for %s.
+03-12 11:26:58.488  5008  5629 I ejsk    : #checkAsrCompatibility inside sequencer
+03-12 11:26:58.488  5008  5629 I ejsk    : (REDACTED) #checkAsrCompatibility initializing Soda. Locale: %s. Expected LP version: %d
+03-12 11:26:58.488  5008  5629 I ejsk    : (REDACTED) Soda cache directory: %s
+03-12 11:26:58.488 15215 15391 I native  : I0000 00:00:1773336418.488906   15391 enrollment_manager_impl.cc:1323] A valid TD-SID creator already exists. No need to re-create.
+03-12 11:26:58.489  5008  5629 I ejsk    : Hotmatch disabled: flag not enabled
+03-12 11:26:58.489  5008  5629 I ekfy    : SODA instance exists and matches params. Updating callbacks and returning preloaded instance.
+03-12 11:26:58.489 15215 15391 I native  : I0000 00:00:1773336418.489555   15391 enrollment_manager_impl_utils.cc:81] Using standalone TI-SID pipeline config:/data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1726000960651/configs/ONDEVICE_LARGE_VOICE_MATCH.config
+03-12 11:26:58.490 15215 15391 I native  : I0000 00:00:1773336418.490149   15391 enrollment_manager_impl.cc:1343] A valid TI-SID creator already exists. No need to re-create.
+03-12 11:26:58.490  5008  5780 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.490 15215 15391 I native  : I0000 00:00:1773336418.490325   15391 enrollment_manager_impl_utils.cc:81] Using standalone TI-SID pipeline config:/data/user/0/com.google.android.googlequicksearchbox/files/datadownload/shared/public/datadownloadfile_1726000960651/configs/ONDEVICE_LARGE_VOICE_MATCH.config
+03-12 11:26:58.490 15215 15391 I native  : I0000 00:00:1773336418.490385   15391 enrollment_manager_impl.cc:1066] Attempting to insert stored TD-SID profiles into config.
+03-12 11:26:58.490 15215 15391 I native  : I0000 00:00:1773336418.490605   15391 enrollment_manager_impl.cc:1090] Found 1 speakers with existing TDSID models.
+03-12 11:26:58.490  5008  5695 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.491  5008  5629 I ejsk    : #checkAsrCompatibility successful!
+03-12 11:26:58.491  5008  5778 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.491  5008  5629 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.492  5008  5779 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.496  5008  5594 I ejtj    : Compatcheck success for background update.
+03-12 11:26:58.496  5008  5594 I ejsk    : #backgroundUpdate
+03-12 11:26:58.496  5008  5594 I ejsk    : #backgroundUpdate inside sequencer
+03-12 11:26:58.496  5008  5594 I ejsk    : #backgroundUpdate using the existing ASR soda instance.
+03-12 11:26:58.497  5008  5594 I ejtj    : #backgroundBiasingUpdate succeeded.
+03-12 11:26:58.497  5008  5684 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.499  5008  5778 I dyzw    : (REDACTED) SODA speech biasing context update for %s is complete. %s
+03-12 11:26:58.499  5008  5778 I dyzh    : (REDACTED) Successfully scheduled context update for key: %s for %s.
+03-12 11:26:58.500  5008  5758 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.503  5008  5684 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.504  5008  5684 I efbi    : (REDACTED) AppFlow %s is about to be transmitted
+03-12 11:26:58.504  5008  5779 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.505  5008  5757 I akyb    : User not OptedIn. Skipping Eligibility Checks.
+03-12 11:26:58.516 15215 15391 E SpeechMicro: Hotword model is single-channel neuralnet.
+03-12 11:26:58.516 15215 15391 I native  : I0000 00:00:1773336418.516508   15391 enrollment_manager_impl.cc:1106] Found valid TDSID profile for user: 0
+03-12 11:26:58.518 15215 15391 I native  : I0000 00:00:1773336418.518608   15391 enrollment_manager_impl.cc:1428] Retrieved stored TDSID models. Speakers requiring re-training:0
+03-12 11:26:58.518 15215 15391 I native  : I0000 00:00:1773336418.518778   15391 enrollment_manager_impl.cc:1139] Attempting to insert stored TI-SID profiles into config.
+03-12 11:26:58.519 15215 15391 I native  : I0000 00:00:1773336418.518984   15391 enrollment_manager_impl.cc:1164] Found 1 speakers with existing TI-SID models.
+03-12 11:26:58.519 15215 15391 I native  : I0000 00:00:1773336418.519589   15391 enrollment_manager_impl.cc:1180] Found valid TI-SID profile for user: 0
+03-12 11:26:58.521 15215 15391 I native  : I0000 00:00:1773336418.521348   15391 enrollment_manager_impl.cc:1441] Retrieved stored TISID models. Speakers requiring re-training:0
+03-12 11:26:58.521 15215 15391 E native  : E0000 00:00:1773336418.521578   15391 enrollment_storage.cc:177] Failed to read model:NOT_FOUND: Speaker does not have Server TISID voiceprint [type.googleapis.com/speech.soda.speaker_id.ReadModelStatus='\x08\x14']
+03-12 11:26:58.521 15215 15391 E native  : === Source Location Trace: ===
+03-12 11:26:58.521 15215 15391 E native  : speech/soda/speaker_id/enrollment/enrollment_storage.cc:228
+03-12 11:26:58.521 15215 15391 I native  : I0000 00:00:1773336418.521639   15391 enrollment_manager_impl.cc:1451] Retrieved Server TISID models.
+03-12 11:26:58.526 15215 15335 I A       : (REDACTED) handleResponse for  %s user(s)
+03-12 11:26:58.526 15215 15391 I native  : I0000 00:00:1773336418.526331   15391 enrollment_manager_impl.cc:467] Invoking listeners with updated speaker profiles.
+03-12 11:26:58.526 15215 15335 I A       : (REDACTED) Found SodaVmmmClassicWriter. Preparing to propagate model update for status: %s
+03-12 11:26:58.527 15215 15335 I A       : Skipping model update propagation to SodaVmmmClassicWriter since speaker model did not change.
+03-12 11:26:58.527 15215 15335 I A       : #handleModelUpdate
+03-12 11:26:58.527 15215 15335 I A       : (REDACTED) # of TDSID models received: %s
+03-12 11:26:58.527 15215 15335 I A       : (REDACTED) Size of TI-SID model bytestring received: %s
+03-12 11:26:58.528 15215 15335 I A       : (REDACTED) # of Server TI-SID voiceprints received: %s
+03-12 11:26:58.528 15215 15335 I A       : getHotwordSpeakerIdModels
+03-12 11:26:58.528 15215 15335 I cvfn    : (REDACTED) Returning SpeakerIdModel: %s bytes
+03-12 11:26:58.531 15215 15335 I ekkq    : (REDACTED) [%s] Tdsid model remains the same. Skipping callback(s).
+03-12 11:26:58.828  2224  2228 I pixel-thermal: disp_therm:32.462 raw data: disp_therm:32462
+03-12 11:26:58.834  2224  2228 I pixel-thermal: VIRTUAL-SKIN-CPU-LIGHT-ODPM:32.6373 raw data: VIRTUAL-SKIN:32637.3 VIRTUAL-SKIN-CPU-LIGHT-ODPM:32637.3 VIRTUAL-SKIN-SUB-0:32429.5 VIRTUAL-SKIN-SUB-1:32382.2 VIRTUAL-SKIN-SUB-2:32290.4 VIRTUAL-SKIN-SUB-3:32637.3 VIRTUAL-SKIN-SUB-4:31567.4 VIRTUAL-SKIN-SUB-5:32472.5 VIRTUAL-SKIN-SUB-6:32195.3 VIRTUAL-SKIN-SUB-7:31983.4 VIRTUAL-SKIN-SUB-8:32280.9 battery:32900 cam_therm:33197 charge_therm:34265 disp_therm:32462 neutral_therm:33330 north_therm:32863 quiet_therm:32484 soc_therm:36001 usb_pwr_therm:32796
+03-12 11:26:58.834  2224  2228 I pixel-thermal: cellular-emergency:32.6373 raw data: VIRTUAL-SKIN:32637.3 cellular-emergency:32637.3
+03-12 11:26:58.834  2224  2228 I pixel-thermal: VIRTUAL-SKIN-CPU-MID:32.6373 raw data: VIRTUAL-SKIN:32637.3 VIRTUAL-SKIN-CPU-MID:32637.3
+03-12 11:26:58.835  2224  2228 I pixel-thermal: VIRTUAL-SKIN-HINT:32.6373 raw data: VIRTUAL-SKIN:32637.3 VIRTUAL-SKIN-HINT:32637.3
+03-12 11:26:58.835  2224  2228 I pixel-thermal: VIRTUAL-SKIN-CPU-HIGH:32.6373 raw data: VIRTUAL-SKIN:32637.3 VIRTUAL-SKIN-CPU-HIGH:32637.3
+03-12 11:26:58.835  2224  2228 I pixel-thermal: VIRTUAL-SKIN-SOC:32.6373 raw data: VIRTUAL-SKIN:32637.3 VIRTUAL-SKIN-SOC:32637.3
+03-12 11:26:58.835  2224  2228 I pixel-thermal: VIRTUAL-SKIN:32.6373 raw data: VIRTUAL-SKIN:32637.3
+03-12 11:26:58.835  2224  2228 I pixel-thermal: cam_therm:33.197 raw data: cam_therm:33197
+03-12 11:26:58.835  2224  2228 I pixel-thermal: VIRTUAL-SKIN-GPU:32.6373 raw data: VIRTUAL-SKIN:32637.3 VIRTUAL-SKIN-GPU:32637.3
+03-12 11:26:58.836  2224  2228 I pixel-thermal: VIRTUAL-SKIN-SPEAKER:30.4865 raw data: VIRTUAL-SKIN-SPEAKER:30486.5 VIRTUAL-SKIN-SPEAKER-SUB-0:27705.8 VIRTUAL-SKIN-SPEAKER-SUB-1:29908.8 VIRTUAL-SKIN-SPEAKER-SUB-2:30486.5 VIRTUAL-SKIN-SPEAKER-SUB-3:30484.5 battery:32900 cam_therm:33197 charge_therm:34265 disp_therm:32462 neutral_therm:33330 north_therm:32863 quiet_therm:32484 soc_therm:36001 usb_pwr_therm:32796
+03-12 11:26:58.837  2224  2228 I pixel-thermal: VIRTUAL-SKIN-CHARGE-WIRED:32.6346 raw data: NO_WLC:1 VIRTUAL-SKIN-CHARGE:32634.6 VIRTUAL-SKIN-CHARGE-SUB-0:32604.1 VIRTUAL-SKIN-CHARGE-SUB-1:30922.4 VIRTUAL-SKIN-CHARGE-SUB-2:31789.9 VIRTUAL-SKIN-CHARGE-SUB-3:32514.4 VIRTUAL-SKIN-CHARGE-SUB-4:32544.5 VIRTUAL-SKIN-CHARGE-SUB-5:32634.6 VIRTUAL-SKIN-CHARGE-SUB-6:31003.2 VIRTUAL-SKIN-CHARGE-WIRED:32634.6 WLC_CHECK:1 battery:32900 cam_therm:33197 charge_therm:34265 disp_therm:32462 neutral_therm:33330 north_therm:32863 quiet_therm:32484 soc_therm:36001 thb_hda:0 usb_pwr_therm:32796
+03-12 11:26:58.837  2224  2228 I pixel-thermal: VIRTUAL-SKIN-CHARGE-WIRED power_budget=3953.76 err=5.36544 s_power=2404 time_elapsed_ms=7027 p=541.909 i=1099 d=-0 dt_per_min=nan compensation=0 budget transient=0 control target=2 excluded power budget=91.1458 (PARTIAL_SYSTEM_POWER: 911.46 mW, cdev_weight: 0.100000)
+03-12 11:26:58.837  2224  2228 I pixel-thermal: VIRTUAL-SKIN-CHARGE-PERSIST:32.6346 raw data: VIRTUAL-SKIN-CHARGE:32634.6 VIRTUAL-SKIN-CHARGE-PERSIST:32634.6
+03-12 11:26:58.987  1912  2538 I AidlSensorManager: aidl_ssvc_poll: spurious wake up, back to work
+03-12 11:26:59.004  1436  1466 E libPixelUsbOverheat: nrEvents negative skipping
+03-12 11:26:59.007  2224  2224 I pixel-thermal: VIRTUAL-USB-THROTTLING:1 raw data: USB-MINUS-NEUTRAL:-534 USB-MINUS-QUIET:312 USB_QUIET_RFFE:312 VIRTUAL-USB-THROTTLING:1 VIRTUAL-USB-THROTTLING-SUB0:0 usb_pwr_therm:32796
+03-12 11:26:59.007  2224  2224 I pixel-thermal: quiet_therm:32.484 raw data: quiet_therm:32484
+03-12 11:26:59.008  2224  2224 I pixel-thermal: VIRTUAL-SKIN-SPEAKER:30.4865 raw data: VIRTUAL-SKIN-SPEAKER:30486.5
+03-12 11:26:59.008  2224  2224 I pixel-thermal: soc_therm:36.001 raw data: soc_therm:36001
+03-12 11:26:59.008  2224  2224 I pixel-thermal: cam_therm:33.197 raw data: cam_therm:33197
+03-12 11:26:59.008  2224  2224 I pixel-thermal: VIRTUAL-SKIN:32.6373 raw data: VIRTUAL-SKIN:32637.3
+03-12 11:26:59.008  2224  2224 I pixel-thermal: usb_pwr_therm:32.796 raw data: usb_pwr_therm:32796
+03-12 11:26:59.008  2224  2224 I pixel-thermal: north_therm:32.863 raw data: north_therm:32863
+03-12 11:26:59.009  2224  2224 I pixel-thermal: cellular-emergency:32.6373 raw data: cellular-emergency:32637.3
+03-12 11:26:59.009  2224  2224 I pixel-thermal: VIRTUAL-USB-UI:1 raw data: USB-MINUS-NEUTRAL:-534 USB-MINUS-QUIET:312 VIRTUAL-USB-UI:1 VIRTUAL-USB-UI-SUB0:0 usb_pwr_therm:32796
+03-12 11:26:59.009  2224  2224 I pixel-thermal: neutral_therm:33.33 raw data: neutral_therm:33330
+03-12 11:26:59.009  2224  2224 I pixel-thermal: disp_therm:32.462 raw data: disp_therm:32462
+03-12 11:26:59.009  2224  2224 I pixel-thermal: charge_therm:34.265 raw data: charge_therm:34265
+03-12 11:26:59.009  2224  2224 I pixel-thermal: VIRTUAL-USB-THROTTLING:1 raw data: VIRTUAL-USB-THROTTLING:1
+03-12 11:26:59.009  2224  2224 I pixel-thermal: quiet_therm:32.484 raw data: quiet_therm:32484
+03-12 11:26:59.009  2224  2224 I pixel-thermal: VIRTUAL-SKIN-SPEAKER:30.4865 raw data: VIRTUAL-SKIN-SPEAKER:30486.5
+03-12 11:26:59.009  2224  2224 I pixel-thermal: soc_therm:36.001 raw data: soc_therm:36001
+03-12 11:26:59.009  2224  2224 I pixel-thermal: cam_therm:33.197 raw data: cam_therm:33197
+03-12 11:26:59.009  2224  2224 I pixel-thermal: VIRTUAL-SKIN:32.6373 raw data: VIRTUAL-SKIN:32637.3
+03-12 11:26:59.009  2224  2224 I pixel-thermal: usb_pwr_therm:32.796 raw data: usb_pwr_therm:32796
+03-12 11:26:59.009  2224  2224 I pixel-thermal: north_therm:32.863 raw data: north_therm:32863
+03-12 11:26:59.009  2224  2224 I pixel-thermal: cellular-emergency:32.6373 raw data: cellular-emergency:32637.3
+03-12 11:26:59.009  2224  2224 I pixel-thermal: VIRTUAL-USB-UI:1 raw data: VIRTUAL-USB-UI:1
+03-12 11:26:59.009  2224  2224 I pixel-thermal: neutral_therm:33.33 raw data: neutral_therm:33330
+03-12 11:26:59.009  2224  2224 I pixel-thermal: disp_therm:32.462 raw data: disp_therm:32462
+03-12 11:26:59.009  2224  2224 I pixel-thermal: charge_therm:34.265 raw data: charge_therm:34265
+03-12 11:26:59.010  2224  2224 I pixel-thermal: VIRTUAL-USB-THROTTLING:1 raw data: VIRTUAL-USB-THROTTLING:1
+03-12 11:26:59.010  2224  2224 I pixel-thermal: quiet_therm:32.484 raw data: quiet_therm:32484
+03-12 11:26:59.010  2224  2224 I pixel-thermal: VIRTUAL-SKIN-SPEAKER:30.4865 raw data: VIRTUAL-SKIN-SPEAKER:30486.5
+03-12 11:26:59.010  2224  2224 I pixel-thermal: soc_therm:36.001 raw data: soc_therm:36001
+03-12 11:26:59.010  2224  2224 I pixel-thermal: cam_therm:33.197 raw data: cam_therm:33197
+03-12 11:26:59.010  2224  2224 I pixel-thermal: VIRTUAL-SKIN:32.6373 raw data: VIRTUAL-SKIN:32637.3
+03-12 11:26:59.010  2224  2224 I pixel-thermal: usb_pwr_therm:32.796 raw data: usb_pwr_therm:32796
+03-12 11:26:59.010  2224  2224 I pixel-thermal: north_therm:32.863 raw data: north_therm:32863
+03-12 11:26:59.011  2224  2224 I pixel-thermal: cellular-emergency:32.6373 raw data: cellular-emergency:32637.3
+03-12 11:26:59.011  2224  2224 I pixel-thermal: VIRTUAL-USB-UI:1 raw data: VIRTUAL-USB-UI:1
+03-12 11:26:59.011  2224  2224 I pixel-thermal: neutral_therm:33.33 raw data: neutral_therm:33330
+03-12 11:26:59.011  2224  2224 I pixel-thermal: disp_therm:32.462 raw data: disp_therm:32462
+03-12 11:26:59.011  2224  2224 I pixel-thermal: charge_therm:34.265 raw data: charge_therm:34265
+03-12 11:26:59.011  1436  1466 W libPixelUsbOverheat: usb_pwr_therm:32.796001
+03-12 11:26:59.013   639  4278 W libc    : Access denied finding property "suspend.debug.wakestats_log.enabled"
+03-12 11:26:59.149  1912  2736 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-12 11:26:59.151  1912  2736 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-12 11:26:59.151  1912  2736 D InetDiagMessage: Destroyed live tcp sockets for uids={10138} in 4ms
+03-12 11:26:59.153  1912  2736 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-12 11:26:59.155  1912  2736 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-12 11:26:59.155  1912  2736 D InetDiagMessage: Destroyed live tcp sockets for uids={20138} in 4ms
+03-12 11:26:59.368 16931 17019 W adbd    : timed out while waiting for FUNCTIONFS_BIND, trying again
+03-12 11:26:59.368 16931 17019 I adbd    : UsbFfs: connection terminated: monitor thread finished
+03-12 11:26:59.396 16931 16937 I adbd    : opening control endpoint /dev/usb-ffs/adb/ep0
+03-12 11:26:59.588  1453  2466 D AidlBufferPool: bufferpool2 0xb40000719df5f6c8 : 6(11076720 size) total buffers - 5(9230600 size) used buffers - 37/45 (recycle/alloc) - 16/41 (fetch/transfer)
+03-12 11:26:59.588  1453  2466 D AidlBufferPoolAcc: evictor expired: 1, evicted: 1
+03-12 11:27:00.055  5020  5627 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+03-12 11:27:00.063  5020  5627 I AiAiEcho: (REDACTED) EchoTargets: %s
+03-12 11:27:00.063  5020  5627 I AiAiEcho: Filtered by AiAi flag check: %s
+03-12 11:27:00.067  5020  5627 I AiAiEcho: (REDACTED) #weatherSubItemsTwiddler: Weather removes SubtitleSupplementalItem in surface: %s
+03-12 11:27:00.067  5020  5627 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+03-12 11:27:00.074 16971 16993 I TestRunner: finished: testLotteryAndInvitation(com.example.lotterappjava.CheckpointTests)

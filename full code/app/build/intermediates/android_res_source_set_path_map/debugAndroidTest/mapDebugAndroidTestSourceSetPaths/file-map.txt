@@ -1,0 +1,5 @@
+com.example.lotterappjava.test.app-core-1.7.0-0 /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3c0faf9386b2c05d5d98654994b4d14a/transformed/core-1.7.0/res
+com.example.lotterappjava.test.app-updated_navigation_xml-1 /Users/tasfikamali/Desktop/final/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.example.lotterappjava.test.app-packageDebugAndroidTestResources-2 /Users/tasfikamali/Desktop/final/app/build/intermediates/incremental/debugAndroidTest/packageDebugAndroidTestResources/merged.dir
+com.example.lotterappjava.test.app-packageDebugAndroidTestResources-3 /Users/tasfikamali/Desktop/final/app/build/intermediates/incremental/debugAndroidTest/packageDebugAndroidTestResources/stripped.dir
+com.example.lotterappjava.test.app-debugAndroidTest-4 /Users/tasfikamali/Desktop/final/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.lotterappjava.CheckpointTests" tests="8" failures="0" errors="0" skipped="0" time="52.369" timestamp="2026-03-12T17:27:48" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel 8 - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="testLotteryAndInvitation" classname="com.example.lotterappjava.CheckpointTests" time="3.274" />
+  <testcase name="testWaitlistFlow" classname="com.example.lotterappjava.CheckpointTests" time="2.173" />
+  <testcase name="testAdminManagement" classname="com.example.lotterappjava.CheckpointTests" time="1.546" />
+  <testcase name="testEntrantProfileFlow" classname="com.example.lotterappjava.CheckpointTests" time="1.335" />
+  <testcase name="testOrganizerEventCreation" classname="com.example.lotterappjava.CheckpointTests" time="1.085" />
+  <testcase name="testUserLifecycle" classname="com.example.lotterappjava.ControllerTest" time="0.663" />
+  <testcase name="useAppContext" classname="com.example.lotterappjava.ExampleInstrumentedTest" time="0.004" />
+  <testcase name="useAppContext" classname="com.example.lotterappjava.IntentTests" time="40.392" />
+</testsuite>
