@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">LotterApp java</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Welcome</string>
+    <string name="second_fragment_label">Details</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_second_fragment">Hello second fragment!</string>
+
+    <string name="welcome_title">Event Lottery System</string>
+    <string name="event_lottery_title">Event Lottery</string>
+    <string name="welcome_subtitle">Fair access to community events.</string>
+    <string name="entrant_description">Join waiting lists for events.</string>
+    <string name="role_selection_prompt">Please select your role to continue</string>
+    <string name="role_entrant">Entrant</string>
+    <string name="role_organizer">Organizer</string>
+    <string name="role_admin">Admin</string>
+    <string name="create_new_event">Create New Event</string>
+    <string name="image_selected">Image Selected</string>
+    <string name="event_poster">Event poster</string>
+    <string name="on_waitlist">On Waitlist</string>
+    <string name="join_waitlist">Join Waitlist</string>
+    <string name="leave_waitlist">Leave Waitlist</string>
+
+    <string name="event_title">Event Title</string>
+    <string name="send_to_selected">Send to Selected</string>
+    <string name="send_to_all">Send to All</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="delete_profile_confirmation">Are you sure you want to delete your profile? This action cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="profile_deleted_successfully">Profile deleted successfully</string>
+    <string name="profile_picture_updated">Profile picture updated</string>
+    <string name="event_created_successfully">Event created successfully</string>
+    <string name="please_select_an_image">Please select an image</string>
+    <string name="image_upload_failed">Image upload failed: %s</string>
+    <string name="please_fill_in_all_fields">Please fill in all fields</string>
+    <string name="invalid_date_time_format">Invalid date/time format</string>
+    <string name="failed_to_create_event">Failed to create event</string>
+    <string name="user_deleted">User deleted</string>
+    <string name="event_deleted">Event deleted</string>
+    <string name="failed_to_delete_event_image">Failed to delete event image</string>
+    <string name="failed_to_delete_image">Failed to delete image</string>
+    <string name="failed_to_delete_event">Failed to delete event</string>
+    <string name="image_deleted">Image deleted</string>
+    <string name="failed_to_update_event">Failed to update event</string>
+    <string name="successfully_joined_waitlist">Successfully joined waitlist</string>
+    <string name="failed_to_join_waitlist">Failed to join waitlist</string>
+    <string name="successfully_left_waitlist">Successfully left waitlist</string>
+    <string name="failed_to_leave_waitlist">Failed to leave waitlist</string>
+    <string name="waitlist_full">Waitlist is full for this event.</string>
+    <string name="error_event_id_missing">Error: Event ID missing</string>
+    <string name="failed_to_load_event_details">Failed to load event details</string>
+    <string name="send_to_all_clicked">Send to all clicked</string>
+    <string name="send_to_selected_clicked">Send to selected clicked</string>
+    <string name="delete_profile_clicked_not_implemented">Delete Profile clicked (not implemented)</string>
+    <string name="search_for_events">Search for events</string>
+    <string name="search">Search</string>
+    <string name="discover_events">Discover Events</string>
+    <string name="my_events">My Events</string>
+    <string name="create_event">Create Event</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="location">Location</string>
+    <string name="start_date">Start Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_date">End Date</string>
+    <string name="end_time">End Time</string>
+    <string name="description">Description</string>
+    <string name="upload_image">Upload Image</string>
+
+    <string name="hint_capacity">e.g. 50 winners</string>
+    <string name="hint_waitlist_limit">No limit if left blank</string>
+    <string name="label_capacity">Capacity</string>
+    <string name="label_waitlist_limit">Waitlist Limit (Optional)</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <!-- Login & Sign up -->
+    <string name="login_title">Sign In</string>
+    <string name="login_subtitle">Sign in to access events as an entrant, organizer, or admin.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up_prompt">Don\'t have an account? Sign up</string>
+    <string name="continue_with_device_label">Or continue without an account (entrants only)</string>
+    <string name="continue_with_device">Continue with this device</string>
+    <string name="sign_up_title">Create Account</string>
+    <string name="sign_up_subtitle">Register to join events, organize events, or manage the app.</string>
+    <string name="sign_up_role_label">I am a…</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account? Sign in</string>
+    <string name="error_email_password_required">Please enter email and password.</string>
+    <string name="error_name_required">Please enter your name.</string>
+    <string name="error_password_length">Password must be at least 6 characters.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="accept_invitation">Accept invitation</string>
+    <string name="decline_invitation">Decline</string>
+
+    <string name="viewing_view_only">Viewing event created by another organizer (view-only)</string>
+    <string name="event_not_found">Event not found</string>
+    <string name="uploading_image">Uploading image...</string>
+    <string name="tap_to_change_poster">Tap to change event poster</string>
+    <string name="tap_to_change_qr">Tap to change promotional QR code</string>
+    <string name="image_uploaded_successfully">Image uploaded successfully</string>
+    <string name="access_denied_not_organizer">Access denied: You are not the organizer of this event</string>
+    <string name="required_fields_missing">Title, Date and Capacity are required</string>
+    <string name="event_updated_successfully">Event updated successfully</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="event_published_successfully">Event published successfully</string>
+    <string name="failed_to_publish_event">Failed to publish event</string>
+
+    <string name="notify_all">Notify All</string>
+    <string name="notify_waiting">Notify WAITING</string>
+    <string name="notify_selected">Notify SELECTED</string>
+    <string name="please_enter_a_message">Please enter a message</string>
+    <string name="notification_sent_to">Notification sent to %1$s group</string>
+    <string name="publish_event">Publish Event</string>
+</resources>
