@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.lotterappjava.LoginFragment"
+        android:label="Sign In"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.lotterappjava.SignUpFragment"
+        android:label="Create Account"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.lotterappjava.FirstFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_entrantHomeFragment"
+            app:destination="@id/entrantHomeFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_organizerHomeFragment"
+            app:destination="@id/organizerHomeFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_adminHomeFragment"
+            app:destination="@id/adminHomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/entrantHomeFragment"
+        android:name="com.example.lotterappjava.EntrantHomeFragment"
+        android:label="Entrant Home"
+        tools:layout="@layout/fragment_entrant_home">
+        <action
+            android:id="@+id/action_entrantHomeFragment_to_entrantProfileFragment"
+            app:destination="@id/entrantProfileFragment" />
+        <action
+            android:id="@+id/action_entrantHomeFragment_to_entrantEventDetailsFragment"
+            app:destination="@id/entrantEventDetailsFragment" />
+        <action
+            android:id="@+id/action_entrantHomeFragment_to_notificationFragment"
+            app:destination="@id/notificationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/entrantEventDetailsFragment"
+        android:name="com.example.lotterappjava.EntrantEventDetailsFragment"
+        android:label="Event Details"
+        tools:layout="@layout/fragment_entrant_event_details">
+        <argument
+            android:name="eventId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.lotterappjava.NotificationFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/organizerHomeFragment"
+        android:name="com.example.lotterappjava.OrganizerHomeFragment"
+        android:label="Organizer Home"
+        tools:layout="@layout/fragment_organizer_home">
+        <action
+            android:id="@+id/action_organizerHomeFragment_to_organizerCreateEventFragment"
+            app:destination="@id/organizerCreateEventFragment" />
+        <action
+            android:id="@+id/action_organizerHomeFragment_to_organizerEventDetailsFragment"
+            app:destination="@id/organizerEventDetailsFragment" />
+        <action
+            android:id="@+id/action_organizerHomeFragment_to_organizerProfileFragment"
+            app:destination="@id/organizerProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/organizerEventDetailsFragment"
+        android:name="com.example.lotterappjava.OrganizerEventDetailsFragment"
+        android:label="Event Details"
+        tools:layout="@layout/fragment_organizer_event_details" >
+        <argument
+            android:name="eventId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_organizerEventDetailsFragment_to_organizerEventEntrantsFragment"
+            app:destination="@id/organizerEventEntrantsFragment" />
+        <action
+            android:id="@+id/action_organizerEventDetailsFragment_to_organizerCreateEventFragment"
+            app:destination="@id/organizerCreateEventFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adminHomeFragment"
+        android:name="com.example.lotterappjava.AdminHomeFragment"
+        android:label="Admin Home"
+        tools:layout="@layout/fragment_admin_home" />
+
+    <fragment
+        android:id="@+id/entrantProfileFragment"
+        android:name="com.example.lotterappjava.EntrantProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_entrant_profile" />
+
+    <fragment
+        android:id="@+id/organizerProfileFragment"
+        android:name="com.example.lotterappjava.OrganizerProfileFragment"
+        android:label="Facility Profile"
+        tools:layout="@layout/fragment_organizer_profile" />
+
+    <fragment
+        android:id="@+id/organizerCreateEventFragment"
+        android:name="com.example.lotterappjava.OrganizerCreateEventFragment"
+        android:label="Create Event"
+        tools:layout="@layout/fragment_organizer_create_event" />
+
+    <fragment
+        android:id="@+id/organizerEventEntrantsFragment"
+        android:name="com.example.lotterappjava.OrganizerEventEntrantsFragment"
+        android:label="Manage Entrants"
+        tools:layout="@layout/fragment_organizer_event_entrants">
+        <argument
+            android:name="eventId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_organizerEventEntrantsFragment_to_organizerMapFragment"
+            app:destination="@id/organizerMapFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/organizerMapFragment"
+        android:name="com.example.lotterappjava.OrganizerMapFragment"
+        android:label="Map View"
+        tools:layout="@layout/fragment_organizer_map">
+        <argument
+            android:name="eventId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
