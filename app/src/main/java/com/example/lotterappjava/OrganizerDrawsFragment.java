@@ -12,6 +12,15 @@ import androidx.fragment.app.Fragment;
 
 import com.example.lotterappjava.databinding.FragmentOrganizerDrawsBinding;
 
+/**
+ * Fragment responsible for the lottery draw functionality.
+ * Allows organizers to sample a specified number of attendees from the waiting list
+ * or draw a replacement for a cancelled or declined invitation.
+ * This class follows the View component of the MVC design pattern.
+ *
+ * Outstanding issues:
+ * - None currently identified.
+ */
 public class OrganizerDrawsFragment extends Fragment {
 
     private FragmentOrganizerDrawsBinding binding;
@@ -19,6 +28,11 @@ public class OrganizerDrawsFragment extends Fragment {
     private EventController eventController;
     private String organizerId;
 
+    /**
+     * Retrieves the event ID from arguments and initializes the controller and organizer ID.
+     *
+     * @param savedInstanceState If the fragment is being re-created from a previous saved state.
+     */
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +43,14 @@ public class OrganizerDrawsFragment extends Fragment {
         organizerId = DeviceIdManager.getDeviceId(requireContext());
     }
 
+    /**
+     * Inflates the layout for this fragment.
+     *
+     * @param inflater The LayoutInflater object that can be used to inflate views.
+     * @param container If non-null, this is the parent view that the fragment's UI should be attached to.
+     * @param savedInstanceState If non-null, this fragment is being re-constructed from a previous state.
+     * @return The View for the fragment's UI.
+     */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -36,6 +58,12 @@ public class OrganizerDrawsFragment extends Fragment {
         return binding.getRoot();
     }
 
+    /**
+     * Sets up click listeners for the lottery draw actions.
+     *
+     * @param view The View returned by onCreateView.
+     * @param savedInstanceState If non-null, this fragment is being re-constructed from a previous state.
+     */
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -43,7 +71,7 @@ public class OrganizerDrawsFragment extends Fragment {
         binding.btnRunDraw.setOnClickListener(v -> {
             String numWinnersStr = binding.editNumWinners.getText().toString();
             if (numWinnersStr.isEmpty()) {
-                Toast.makeText(getContext(), "Please enter number of winners", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), getString(R.string.please_fill_in_all_fields), Toast.LENGTH_SHORT).show();
                 return;
             }
             int numWinners = Integer.parseInt(numWinnersStr);
@@ -55,8 +83,13 @@ public class OrganizerDrawsFragment extends Fragment {
         });
     }
 
+    /**
+     * Initiates a random lottery draw for a specified number of attendees.
+     * Corresponds to US 02.05.02.
+     *
+     * @param numWinners The number of winners to draw from the waitlist.
+     */
     private void runRandomDraw(int numWinners) {
-        // US 02.05.02: As an organizer, I want to set the system to sample a specified number of attendees
         eventController.drawLottery(eventId, organizerId, numWinners, success -> {
             if (success) {
                 Toast.makeText(getContext(), "Lottery draw completed successfully!", Toast.LENGTH_SHORT).show();
@@ -66,8 +99,11 @@ public class OrganizerDrawsFragment extends Fragment {
         });
     }
 
+    /**
+     * Initiates a draw for a single replacement applicant.
+     * Corresponds to US 02.05.03.
+     */
     private void drawReplacement() {
-        // US 02.05.03: As an organizer I want to be able to draw a replacement applicant
         eventController.drawReplacement(eventId, organizerId, success -> {
             if (success) {
                 Toast.makeText(getContext(), "Replacement draw completed successfully!", Toast.LENGTH_SHORT).show();
@@ -77,6 +113,9 @@ public class OrganizerDrawsFragment extends Fragment {
         });
     }
 
+    /**
+     * Cleans up the binding when the view is destroyed.
+     */
     @Override
     public void onDestroyView() {
         super.onDestroyView();
