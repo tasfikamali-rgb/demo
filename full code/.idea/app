@@ -1,9 +1,0 @@
-<script>start("/Users/tasfikamali/Desktop/arekta naam java-copy/app/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("build","build",1,256,"256 B",1773308519,"12/03/2026, 03:41:59");</script>
-<script>addRow("src","src",1,160,"160 B",1773206755,"10/03/2026, 23:25:55");</script>
-<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1773308519,"12/03/2026, 03:41:59");</script>
-<script>addRow(".gitignore",".gitignore",0,6,"6 B",1772510694,"02/03/2026, 21:04:54");</script>
-<script>addRow("build.gradle.kts","build.gradle.kts",0,1751,"1.7 kB",1773294352,"11/03/2026, 23:45:52");</script>
-<script>addRow("google-services.json","google-services.json",0,683,"683 B",1773307613,"12/03/2026, 03:26:53");</script>
-<script>addRow("proguard-rules.pro","proguard-rules.pro",0,750,"750 B",1772510694,"02/03/2026, 21:04:54");</script>
