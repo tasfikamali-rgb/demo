@@ -115,12 +115,12 @@ public class OrganizerHomeFragment extends Fragment {
                 .setTitle("Delete Event")
                 .setMessage("Are you sure you want to delete this event?")
                 .setPositiveButton("Yes", (dialog, which) -> {
-                    eventController.deleteEvent(event.getEventId(), success -> {
+                    eventController.deleteEvent(event.getEventId(), organizerId, success -> {
                         if (success) {
                             Toast.makeText(getContext(), "Event deleted", Toast.LENGTH_SHORT).show();
                             loadEvents();
                         } else {
-                            Toast.makeText(getContext(), "Failed to delete event", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getContext(), "Failed to delete event or permission denied", Toast.LENGTH_SHORT).show();
                         }
                     });
                 })

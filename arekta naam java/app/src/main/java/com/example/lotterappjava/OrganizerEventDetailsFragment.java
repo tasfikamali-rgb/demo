@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,6 +19,7 @@ public class OrganizerEventDetailsFragment extends Fragment {
     private FragmentOrganizerEventDetailsBinding binding;
     private String eventId;
     private EventController eventController;
+    private String organizerId;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -26,6 +28,7 @@ public class OrganizerEventDetailsFragment extends Fragment {
             eventId = getArguments().getString("eventId");
         }
         eventController = new EventController();
+        organizerId = DeviceIdManager.getDeviceId(requireContext());
     }
 
     @Nullable
@@ -41,12 +44,25 @@ public class OrganizerEventDetailsFragment extends Fragment {
 
         binding.btnBack.setOnClickListener(v -> NavHostFragment.findNavController(this).navigateUp());
 
-        // Load event title
-        // eventController.getEvent(eventId, event -> {
-        //    if (binding != null) binding.textEventTitle.setText(event.getTitle());
-        // });
+        checkOwnershipAndLoad();
+    }
 
-        setupTabs();
+    private void checkOwnershipAndLoad() {
+        eventController.getEvent(eventId, event -> {
+            if (binding == null) return;
+            if (event != null) {
+                if (!organizerId.equals(event.getOrganizerId())) {
+                    Toast.makeText(getContext(), "Access denied: You are not the organizer of this event", Toast.LENGTH_LONG).show();
+                    NavHostFragment.findNavController(this).navigateUp();
+                    return;
+                }
+                binding.textEventTitle.setText(event.getTitle());
+                setupTabs();
+            } else {
+                Toast.makeText(getContext(), "Event not found", Toast.LENGTH_SHORT).show();
+                NavHostFragment.findNavController(this).navigateUp();
+            }
+        });
     }
 
     private void setupTabs() {

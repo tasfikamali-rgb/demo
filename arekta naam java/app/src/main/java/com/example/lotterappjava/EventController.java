@@ -25,6 +25,10 @@ public class EventController {
         void onEventsLoaded(List<Event> events);
     }
 
+    public interface OnEventLoadedListener {
+        void onEventLoaded(Event event);
+    }
+
     public interface OnEventsWithStatusLoadedListener {
         void onEventsLoaded(List<Event> events, Map<String, String> statuses);
     }
@@ -75,6 +79,21 @@ public class EventController {
         public String getStatus() { return status; }
         public Double getLatitude() { return latitude; }
         public Double getLongitude() { return longitude; }
+    }
+
+    public void getEvent(String eventId, OnEventLoadedListener listener) {
+        db.collection("events").document(eventId).get()
+                .addOnSuccessListener(documentSnapshot -> {
+                    if (documentSnapshot.exists()) {
+                        listener.onEventLoaded(documentSnapshot.toObject(Event.class));
+                    } else {
+                        listener.onEventLoaded(null);
+                    }
+                })
+                .addOnFailureListener(e -> {
+                    Log.w(TAG, "Error getting event", e);
+                    listener.onEventLoaded(null);
+                });
     }
 
     public void createEvent(Event event, String organizerId, OnEventActionCompleteListener listener) {
@@ -200,29 +219,35 @@ public class EventController {
                 .addOnFailureListener(e -> Log.e(TAG, "Error getting participants", e));
     }
 
-    public void drawLottery(String eventId, int numberOfWinners, OnEventActionCompleteListener listener) {
-        db.collection("events").document(eventId).collection("entrants")
-                .whereEqualTo("status", "waiting")
-                .get()
-                .addOnSuccessListener(querySnapshot -> {
-                    List<DocumentSnapshot> waitingList = new ArrayList<>(querySnapshot.getDocuments());
-                    Collections.shuffle(waitingList);
+    public void drawLottery(String eventId, String organizerId, int numberOfWinners, OnEventActionCompleteListener listener) {
+        getEvent(eventId, event -> {
+            if (event != null && organizerId.equals(event.getOrganizerId())) {
+                db.collection("events").document(eventId).collection("entrants")
+                        .whereEqualTo("status", "waiting")
+                        .get()
+                        .addOnSuccessListener(querySnapshot -> {
+                            List<DocumentSnapshot> waitingList = new ArrayList<>(querySnapshot.getDocuments());
+                            Collections.shuffle(waitingList);
 
-                    int actualWinners = Math.min(numberOfWinners, waitingList.size());
-                    WriteBatch batch = db.batch();
+                            int actualWinners = Math.min(numberOfWinners, waitingList.size());
+                            WriteBatch batch = db.batch();
 
-                    for (int i = 0; i < actualWinners; i++) {
-                        batch.update(waitingList.get(i).getReference(), "status", "invited");
-                    }
+                            for (int i = 0; i < actualWinners; i++) {
+                                batch.update(waitingList.get(i).getReference(), "status", "invited");
+                            }
 
-                    batch.commit().addOnCompleteListener(task -> {
-                        if (listener != null) listener.onComplete(task.isSuccessful());
-                    });
-                });
+                            batch.commit().addOnCompleteListener(task -> {
+                                if (listener != null) listener.onComplete(task.isSuccessful());
+                            });
+                        });
+            } else {
+                if (listener != null) listener.onComplete(false);
+            }
+        });
     }
 
-    public void drawReplacement(String eventId, OnEventActionCompleteListener listener) {
-        drawLottery(eventId, 1, listener);
+    public void drawReplacement(String eventId, String organizerId, OnEventActionCompleteListener listener) {
+        drawLottery(eventId, organizerId, 1, listener);
     }
 
     public void sendNotificationToGroup(String eventId, String status, String message, OnEventActionCompleteListener listener) {
@@ -447,8 +472,8 @@ public class EventController {
                                 
                                 // 4. Check facilities collection
                                 db.collection("facilities").whereEqualTo("imageUrl", imageUrl).get()
-                                    .addOnSuccessListener(facilitySnaps -> {
-                                        for (QueryDocumentSnapshot doc : facilitySnaps) {
+                                    .addOnSuccessListener(facilitySnapshots -> {
+                                        for (QueryDocumentSnapshot doc : facilitySnapshots) {
                                             batch.update(doc.getReference(), "imageUrl", null);
                                         }
                                         
@@ -463,6 +488,16 @@ public class EventController {
             .addOnFailureListener(e -> {
                 if (listener != null) listener.onComplete(false);
             });
+    }
+
+    public void deleteEvent(String eventId, String organizerId, OnEventActionCompleteListener listener) {
+        getEvent(eventId, event -> {
+            if (event != null && organizerId.equals(event.getOrganizerId())) {
+                deleteEvent(eventId, listener);
+            } else {
+                if (listener != null) listener.onComplete(false);
+            }
+        });
     }
 
     public void deleteEvent(String eventId, OnEventActionCompleteListener listener) {

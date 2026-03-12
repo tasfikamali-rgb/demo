@@ -153,38 +153,45 @@ public class OrganizerCreateEventFragment extends Fragment {
     }
 
     private void loadEventData() {
-        com.google.firebase.firestore.FirebaseFirestore.getInstance()
-                .collection("events").document(eventIdToEdit).get()
-                .addOnSuccessListener(documentSnapshot -> {
-                    Event event = documentSnapshot.toObject(Event.class);
-                    if (event != null && binding != null) {
-                        binding.editEventTitle.setText(event.getTitle());
-                        binding.editDescription.setText(event.getDescription());
-                        if (event.getEventDate() != null) binding.editEventDate.setText(dateFormat.format(event.getEventDate()));
-                        if (event.getEventStartTime() != null) binding.editStartTime.setText(timeFormat.format(event.getEventStartTime()));
-                        if (event.getEventEndTime() != null) binding.editEndTime.setText(timeFormat.format(event.getEventEndTime()));
-                        
-                        binding.editPrice.setText(String.valueOf(event.getPrice()));
-                        binding.editCapacity.setText(String.valueOf(event.getCapacity()));
-                        if (event.getMaxWaitingListEntrants() != null) binding.editWaitlistLimit.setText(String.valueOf(event.getMaxWaitingListEntrants()));
-                        if (event.getRegistrationStart() != null) binding.editRegOpen.setText(dateFormat.format(event.getRegistrationStart()));
-                        if (event.getRegistrationEnd() != null) binding.editRegClose.setText(dateFormat.format(event.getRegistrationEnd()));
-                        binding.switchLocation.setChecked(event.isGeolocationRequired());
+        eventController.getEvent(eventIdToEdit, event -> {
+            if (event != null && binding != null) {
+                // Check if the current user is the owner
+                if (!organizerId.equals(event.getOrganizerId())) {
+                    Toast.makeText(getContext(), "Access denied: You are not the organizer of this event", Toast.LENGTH_LONG).show();
+                    NavHostFragment.findNavController(this).navigateUp();
+                    return;
+                }
 
-                        if (event.getPosterUrl() != null && !event.getPosterUrl().isEmpty()) {
-                            currentPosterUrl = event.getPosterUrl();
-                            binding.imagePosterPreview.setVisibility(View.VISIBLE);
-                            binding.textUploadPoster.setText("Tap to change event poster");
-                            Glide.with(this).load(currentPosterUrl).into(binding.imagePosterPreview);
-                        }
-                        if (event.getQrCodeUrl() != null && !event.getQrCodeUrl().isEmpty()) {
-                            currentQrCodeUrl = event.getQrCodeUrl();
-                            binding.imageQrPreview.setVisibility(View.VISIBLE);
-                            binding.textUploadQr.setText("Tap to change promotional QR code");
-                            Glide.with(this).load(currentQrCodeUrl).into(binding.imageQrPreview);
-                        }
-                    }
-                });
+                binding.editEventTitle.setText(event.getTitle());
+                binding.editDescription.setText(event.getDescription());
+                if (event.getEventDate() != null) binding.editEventDate.setText(dateFormat.format(event.getEventDate()));
+                if (event.getEventStartTime() != null) binding.editStartTime.setText(timeFormat.format(event.getEventStartTime()));
+                if (event.getEventEndTime() != null) binding.editEndTime.setText(timeFormat.format(event.getEventEndTime()));
+
+                binding.editPrice.setText(String.valueOf(event.getPrice()));
+                binding.editCapacity.setText(String.valueOf(event.getCapacity()));
+                if (event.getMaxWaitingListEntrants() != null) binding.editWaitlistLimit.setText(String.valueOf(event.getMaxWaitingListEntrants()));
+                if (event.getRegistrationStart() != null) binding.editRegOpen.setText(dateFormat.format(event.getRegistrationStart()));
+                if (event.getRegistrationEnd() != null) binding.editRegClose.setText(dateFormat.format(event.getRegistrationEnd()));
+                binding.switchLocation.setChecked(event.isGeolocationRequired());
+
+                if (event.getPosterUrl() != null && !event.getPosterUrl().isEmpty()) {
+                    currentPosterUrl = event.getPosterUrl();
+                    binding.imagePosterPreview.setVisibility(View.VISIBLE);
+                    binding.textUploadPoster.setText("Tap to change event poster");
+                    Glide.with(this).load(currentPosterUrl).into(binding.imagePosterPreview);
+                }
+                if (event.getQrCodeUrl() != null && !event.getQrCodeUrl().isEmpty()) {
+                    currentQrCodeUrl = event.getQrCodeUrl();
+                    binding.imageQrPreview.setVisibility(View.VISIBLE);
+                    binding.textUploadQr.setText("Tap to change promotional QR code");
+                    Glide.with(this).load(currentQrCodeUrl).into(binding.imageQrPreview);
+                }
+            } else if (binding != null) {
+                Toast.makeText(getContext(), "Event not found", Toast.LENGTH_SHORT).show();
+                NavHostFragment.findNavController(this).navigateUp();
+            }
+        });
     }
 
     private void showDatePicker(android.widget.EditText editText) {
@@ -243,13 +250,21 @@ public class OrganizerCreateEventFragment extends Fragment {
         event.setGeolocationRequired(geoRequired);
 
         if (isEditMode) {
-            com.google.firebase.firestore.FirebaseFirestore.getInstance()
-                    .collection("events").document(eventIdToEdit).set(event)
-                    .addOnSuccessListener(aVoid -> {
-                        Toast.makeText(getContext(), "Event updated successfully", Toast.LENGTH_SHORT).show();
-                        NavHostFragment.findNavController(this).navigateUp();
-                    })
-                    .addOnFailureListener(e -> Toast.makeText(getContext(), "Failed to update event", Toast.LENGTH_SHORT).show());
+            // Verify ownership again before saving
+            eventController.getEvent(eventIdToEdit, existingEvent -> {
+                if (existingEvent != null && organizerId.equals(existingEvent.getOrganizerId())) {
+                    eventController.createEvent(event, organizerId, success -> {
+                        if (success) {
+                            Toast.makeText(getContext(), "Event updated successfully", Toast.LENGTH_SHORT).show();
+                            NavHostFragment.findNavController(this).navigateUp();
+                        } else {
+                            Toast.makeText(getContext(), "Failed to update event", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                } else {
+                    Toast.makeText(getContext(), "Permission denied", Toast.LENGTH_SHORT).show();
+                }
+            });
         } else {
             eventController.createEvent(event, organizerId, success -> {
                 if (success) {

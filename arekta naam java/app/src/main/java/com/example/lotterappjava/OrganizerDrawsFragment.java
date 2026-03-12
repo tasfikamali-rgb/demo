@@ -17,6 +17,7 @@ public class OrganizerDrawsFragment extends Fragment {
     private FragmentOrganizerDrawsBinding binding;
     private String eventId;
     private EventController eventController;
+    private String organizerId;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class OrganizerDrawsFragment extends Fragment {
             eventId = getArguments().getString("eventId");
         }
         eventController = new EventController();
+        organizerId = DeviceIdManager.getDeviceId(requireContext());
     }
 
     @Nullable
@@ -55,22 +57,22 @@ public class OrganizerDrawsFragment extends Fragment {
 
     private void runRandomDraw(int numWinners) {
         // US 02.05.02: As an organizer, I want to set the system to sample a specified number of attendees
-        eventController.drawLottery(eventId, numWinners, success -> {
+        eventController.drawLottery(eventId, organizerId, numWinners, success -> {
             if (success) {
                 Toast.makeText(getContext(), "Lottery draw completed successfully!", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(getContext(), "Failed to run lottery draw", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Failed to run lottery draw: Unauthorized or Error", Toast.LENGTH_SHORT).show();
             }
         });
     }
 
     private void drawReplacement() {
         // US 02.05.03: As an organizer I want to be able to draw a replacement applicant
-        eventController.drawReplacement(eventId, success -> {
+        eventController.drawReplacement(eventId, organizerId, success -> {
             if (success) {
                 Toast.makeText(getContext(), "Replacement draw completed successfully!", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(getContext(), "Failed to draw replacement", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Failed to draw replacement: Unauthorized or Error", Toast.LENGTH_SHORT).show();
             }
         });
     }

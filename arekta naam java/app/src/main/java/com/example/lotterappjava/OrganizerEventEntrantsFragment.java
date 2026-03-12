@@ -25,7 +25,7 @@ public class OrganizerEventEntrantsFragment extends Fragment {
     private String eventId;
     private EventController eventController;
     private String currentStatus = "waiting";
-    private List<EventController.Participant> participantList = new ArrayList<>();
+    private final List<EventController.Participant> participantList = new ArrayList<>();
     // private ParticipantAdapter adapter; 
 
     @Override
@@ -125,19 +125,24 @@ public class OrganizerEventEntrantsFragment extends Fragment {
             String val = input.getText().toString();
             if (!val.isEmpty()) {
                 int num = Integer.parseInt(val);
+                String organizerId = DeviceIdManager.getDeviceId(requireContext());
                 if (currentStatus.equals("waiting")) {
-                    eventController.drawLottery(eventId, num, success -> {
+                    eventController.drawLottery(eventId, organizerId, num, success -> {
                         if (success) {
                             Toast.makeText(getContext(), "Lottery drawn!", Toast.LENGTH_SHORT).show();
                             loadParticipants();
+                        } else {
+                            Toast.makeText(getContext(), "Failed to draw lottery", Toast.LENGTH_SHORT).show();
                         }
                     });
                 } else {
                     // Draw replacement
-                    eventController.drawReplacement(eventId, success -> {
+                    eventController.drawReplacement(eventId, organizerId, success -> {
                         if (success) {
                             Toast.makeText(getContext(), "Replacement drawn!", Toast.LENGTH_SHORT).show();
                             loadParticipants();
+                        } else {
+                            Toast.makeText(getContext(), "Failed to draw replacement", Toast.LENGTH_SHORT).show();
                         }
                     });
                 }
