@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">992917636171</string>
-    <string name="google_api_key" translatable="false">AIzaSyBNeMEd-cUkUo_PczJgnfP188ojkUIepNk</string>
-    <string name="google_app_id" translatable="false">1:992917636171:android:e76930a70eb2af74b8f9ce</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBNeMEd-cUkUo_PczJgnfP188ojkUIepNk</string>
-    <string name="google_storage_bucket" translatable="false">lotteryappjava.firebasestorage.app</string>
-    <string name="project_id" translatable="false">lotteryappjava</string>
-</resources>
