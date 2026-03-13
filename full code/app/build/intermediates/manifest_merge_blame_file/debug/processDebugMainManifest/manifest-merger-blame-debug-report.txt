@@ -1,0 +1,538 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lotterappjava"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:5:22-64
+12    <!-- Geolocation for entrant join location and organizer maps -->
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+15-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:23:5-77
+16-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:23:22-74
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:24:5-68
+17-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:24:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:26:22-79
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+30-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/b055f6fe363a679922ecfc68ee9a8d07/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+30-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/b055f6fe363a679922ecfc68ee9a8d07/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+31
+32    <permission
+32-->[androidx.core:core:1.13.1] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/5101cd14259925b985eda92b4d504e76/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.lotterappjava.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.1] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/5101cd14259925b985eda92b4d504e76/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.1] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/5101cd14259925b985eda92b4d504e76/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.lotterappjava.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.1] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/5101cd14259925b985eda92b4d504e76/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.1] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/5101cd14259925b985eda92b4d504e76/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:10:5-42:19
+39        android:allowBackup="true"
+39-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:11:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.13.1] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/5101cd14259925b985eda92b4d504e76/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:12:9-65
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:fullBackupContent="@xml/backup_rules"
+44-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:13:9-54
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:14:9-43
+46        android:label="@string/app_name"
+46-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:15:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:16:9-54
+48        android:supportsRtl="true"
+48-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:17:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.LotterAppJava" >
+50-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:18:9-51
+51        <activity
+51-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:19:9-28:20
+52            android:name="com.example.lotterappjava.MainActivity"
+52-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:20:13-41
+53            android:exported="true"
+53-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:21:13-36
+54            android:theme="@style/Theme.LotterAppJava" >
+54-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:22:13-55
+55            <intent-filter>
+55-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:23:13-27:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:24:17-69
+56-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:24:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:26:17-77
+58-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:26:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <service
+62-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:30:9-36:19
+63            android:name="com.example.lotterappjava.MyFirebaseMessagingService"
+63-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:31:13-55
+64            android:exported="false" >
+64-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:32:13-37
+65            <intent-filter>
+65-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:33:13-35:29
+66                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+66-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:34:17-78
+66-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:34:25-75
+67            </intent-filter>
+68        </service>
+69
+70        <!-- Google Maps API key (replace value with your real key) -->
+71        <meta-data
+71-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:39:9-41:49
+72            android:name="com.google.android.geo.API_KEY"
+72-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:40:13-58
+73            android:value="YOUR_API_KEY_HERE" />
+73-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:41:13-46
+74
+75        <activity
+75-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+76            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+76-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+77            android:excludeFromRecents="true"
+77-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+78            android:exported="true"
+78-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+79            android:launchMode="singleTask"
+79-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+80-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+81            <intent-filter>
+81-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+82-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+84-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+85-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+86
+87                <data
+87-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+88                    android:host="firebase.auth"
+88-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+89                    android:path="/"
+89-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+90                    android:scheme="genericidp" />
+90-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+94            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+94-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+100-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+102-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+103-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+104
+105                <data
+105-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+106                    android:host="firebase.auth"
+106-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+107                    android:path="/"
+107-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+108                    android:scheme="recaptcha" />
+108-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+109            </intent-filter>
+110        </activity>
+111
+112        <service
+112-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+113            android:name="com.google.firebase.components.ComponentDiscoveryService"
+113-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:67:13-84
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+115            android:exported="false" >
+115-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:68:13-37
+116            <meta-data
+116-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+117                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+117-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-auth:23.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e19dcd596378d357ce383d7ef61b3f89/transformed/firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-firestore:25.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/2c17e31b3ab39b4b257bf987b6ec8b7f/transformed/firebase-firestore-25.0.0/AndroidManifest.xml:17:13-19:85
+120                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+120-->[com.google.firebase:firebase-firestore:25.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/2c17e31b3ab39b4b257bf987b6ec8b7f/transformed/firebase-firestore-25.0.0/AndroidManifest.xml:18:17-122
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-firestore:25.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/2c17e31b3ab39b4b257bf987b6ec8b7f/transformed/firebase-firestore-25.0.0/AndroidManifest.xml:19:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-firestore:25.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/2c17e31b3ab39b4b257bf987b6ec8b7f/transformed/firebase-firestore-25.0.0/AndroidManifest.xml:20:13-22:85
+123                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+123-->[com.google.firebase:firebase-firestore:25.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/2c17e31b3ab39b4b257bf987b6ec8b7f/transformed/firebase-firestore-25.0.0/AndroidManifest.xml:21:17-111
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-firestore:25.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/2c17e31b3ab39b4b257bf987b6ec8b7f/transformed/firebase-firestore-25.0.0/AndroidManifest.xml:22:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:57:13-59:85
+126                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+126-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:58:17-122
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:59:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:60:13-62:85
+129                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+129-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:61:17-119
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:62:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-storage:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/488d3753477bd6b916cb8bdab13618a3/transformed/firebase-storage-21.0.0/AndroidManifest.xml:30:13-32:85
+132                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+132-->[com.google.firebase:firebase-storage:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/488d3753477bd6b916cb8bdab13618a3/transformed/firebase-storage-21.0.0/AndroidManifest.xml:31:17-118
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-storage:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/488d3753477bd6b916cb8bdab13618a3/transformed/firebase-storage-21.0.0/AndroidManifest.xml:32:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-storage:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/488d3753477bd6b916cb8bdab13618a3/transformed/firebase-storage-21.0.0/AndroidManifest.xml:33:13-35:85
+135                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+135-->[com.google.firebase:firebase-storage:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/488d3753477bd6b916cb8bdab13618a3/transformed/firebase-storage-21.0.0/AndroidManifest.xml:34:17-107
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-storage:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/488d3753477bd6b916cb8bdab13618a3/transformed/firebase-storage-21.0.0/AndroidManifest.xml:35:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c7c671f7bd185af90d92552d0a1b8ae8/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+138                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+138-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c7c671f7bd185af90d92552d0a1b8ae8/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c7c671f7bd185af90d92552d0a1b8ae8/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c7c671f7bd185af90d92552d0a1b8ae8/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+141                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+141-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c7c671f7bd185af90d92552d0a1b8ae8/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c7c671f7bd185af90d92552d0a1b8ae8/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-installations:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c474cd66e4e5c29149569a41c6f7555b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+144                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+144-->[com.google.firebase:firebase-installations:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c474cd66e4e5c29149569a41c6f7555b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-installations:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c474cd66e4e5c29149569a41c6f7555b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-installations:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c474cd66e4e5c29149569a41c6f7555b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+147                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+147-->[com.google.firebase:firebase-installations:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c474cd66e4e5c29149569a41c6f7555b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-installations:18.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/c474cd66e4e5c29149569a41c6f7555b/transformed/firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/f8be9ad974abb612a7a9c5d50f7197b7/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+150                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+150-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/f8be9ad974abb612a7a9c5d50f7197b7/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/f8be9ad974abb612a7a9c5d50f7197b7/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+153                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+153-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ded7ee8106a8e3ac38980343adb277d0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+156                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+156-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ded7ee8106a8e3ac38980343adb277d0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ded7ee8106a8e3ac38980343adb277d0/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+158        </service>
+159
+160        <receiver
+160-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:29:9-40:20
+161            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+161-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:30:13-78
+162            android:exported="true"
+162-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:31:13-36
+163            android:permission="com.google.android.c2dm.permission.SEND" >
+163-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:32:13-73
+164            <intent-filter>
+164-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:33:13-35:29
+165                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+165-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:34:17-81
+165-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:34:25-78
+166            </intent-filter>
+167
+168            <meta-data
+168-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:37:13-39:40
+169                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+169-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:38:17-92
+170                android:value="true" />
+170-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:39:17-37
+171        </receiver>
+172        <!--
+173             FirebaseMessagingService performs security checks at runtime,
+174             but set to not exported to explicitly avoid allowing another app to call it.
+175        -->
+176        <service
+176-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:46:9-53:19
+177            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+177-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:47:13-82
+178            android:directBootAware="true"
+178-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:48:13-43
+179            android:exported="false" >
+179-->[com.google.firebase:firebase-messaging:24.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/07422dfd6458b03d9609f0051bec7e60/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:49:13-37
+180            <intent-filter android:priority="-500" >
+180-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:33:13-35:29
+181                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+181-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:34:17-78
+181-->/Users/tasfikamali/Desktop/final/app/src/main/AndroidManifest.xml:34:25-75
+182            </intent-filter>
+183        </service> <!-- Needs to be explicitly declared on P+ -->
+184        <uses-library
+184-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:39:9-41:40
+185            android:name="org.apache.http.legacy"
+185-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:40:13-50
+186            android:required="false" />
+186-->[com.google.android.gms:play-services-maps:19.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/3170460d6042f0a96bb636c9d5b48e29/transformed/play-services-maps-19.0.0/AndroidManifest.xml:41:13-37
+187
+188        <service
+188-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+189            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+189-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+190            android:enabled="true"
+190-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+191            android:exported="false" >
+191-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+192            <meta-data
+192-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+193                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+193-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+194                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+194-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+195        </service>
+196
+197        <activity
+197-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+198            android:name="androidx.credentials.playservices.HiddenActivity"
+198-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+199            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+199-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+200            android:enabled="true"
+200-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+201            android:exported="false"
+201-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+202            android:fitsSystemWindows="true"
+202-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+203            android:theme="@style/Theme.Hidden" >
+203-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/11f264e1102fc701619eae03c21bdaf7/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+204        </activity>
+205        <activity
+205-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+206            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+206-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+207            android:excludeFromRecents="true"
+207-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+209-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+210        <!--
+211            Service handling Google Sign-In user revocation. For apps that do not integrate with
+212            Google Sign-In, this service will never be started.
+213        -->
+214        <service
+214-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+215            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+215-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+216            android:exported="true"
+216-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+217            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+217-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+218            android:visibleToInstantApps="true" />
+218-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/cef2e9bc6b97a0fef93d964f8ba99ad0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+219
+220        <activity
+220-->[com.google.android.gms:play-services-base:18.5.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/7a9e62f23719f6b2abfa496c56b61b98/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+221            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+221-->[com.google.android.gms:play-services-base:18.5.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/7a9e62f23719f6b2abfa496c56b61b98/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+222            android:exported="false"
+222-->[com.google.android.gms:play-services-base:18.5.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/7a9e62f23719f6b2abfa496c56b61b98/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+223            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+223-->[com.google.android.gms:play-services-base:18.5.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/7a9e62f23719f6b2abfa496c56b61b98/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+224
+225        <provider
+225-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+226            android:name="com.google.firebase.provider.FirebaseInitProvider"
+226-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+227            android:authorities="com.example.lotterappjava.firebaseinitprovider"
+227-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+228            android:directBootAware="true"
+228-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+229            android:exported="false"
+229-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+230            android:initOrder="100" />
+230-->[com.google.firebase:firebase-common:21.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/ac9e923eaa9490f3affd47f4f09925ae/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+231
+232        <uses-library
+232-->[androidx.window:window:1.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e7decbd838c94eee50503fd1802e0633/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+233            android:name="androidx.window.extensions"
+233-->[androidx.window:window:1.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e7decbd838c94eee50503fd1802e0633/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+234            android:required="false" />
+234-->[androidx.window:window:1.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e7decbd838c94eee50503fd1802e0633/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+235        <uses-library
+235-->[androidx.window:window:1.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e7decbd838c94eee50503fd1802e0633/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+236            android:name="androidx.window.sidecar"
+236-->[androidx.window:window:1.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e7decbd838c94eee50503fd1802e0633/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+237            android:required="false" />
+237-->[androidx.window:window:1.0.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/e7decbd838c94eee50503fd1802e0633/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+238
+239        <provider
+239-->[androidx.emoji2:emoji2:1.3.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/97133fef2bef951af180cdde9e8faafd/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+240            android:name="androidx.startup.InitializationProvider"
+240-->[androidx.emoji2:emoji2:1.3.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/97133fef2bef951af180cdde9e8faafd/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+241            android:authorities="com.example.lotterappjava.androidx-startup"
+241-->[androidx.emoji2:emoji2:1.3.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/97133fef2bef951af180cdde9e8faafd/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+242            android:exported="false" >
+242-->[androidx.emoji2:emoji2:1.3.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/97133fef2bef951af180cdde9e8faafd/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+243            <meta-data
+243-->[androidx.emoji2:emoji2:1.3.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/97133fef2bef951af180cdde9e8faafd/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+244                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+244-->[androidx.emoji2:emoji2:1.3.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/97133fef2bef951af180cdde9e8faafd/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+245                android:value="androidx.startup" />
+245-->[androidx.emoji2:emoji2:1.3.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/97133fef2bef951af180cdde9e8faafd/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+246            <meta-data
+246-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/6da979b7d98b81973447522c618dddf8/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
+247                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+247-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/6da979b7d98b81973447522c618dddf8/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+248                android:value="androidx.startup" />
+248-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/6da979b7d98b81973447522c618dddf8/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
+249            <meta-data
+249-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+250                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+250-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+251                android:value="androidx.startup" />
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+252        </provider>
+253
+254        <meta-data
+254-->[com.google.android.gms:play-services-basement:18.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/6fc232db7aced322766a6887ab3e9aa6/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+255            android:name="com.google.android.gms.version"
+255-->[com.google.android.gms:play-services-basement:18.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/6fc232db7aced322766a6887ab3e9aa6/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+256            android:value="@integer/google_play_services_version" />
+256-->[com.google.android.gms:play-services-basement:18.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/6fc232db7aced322766a6887ab3e9aa6/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+257
+258        <receiver
+258-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+259            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+259-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+260            android:directBootAware="false"
+260-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+261            android:enabled="true"
+261-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+262            android:exported="true"
+262-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+263            android:permission="android.permission.DUMP" >
+263-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+264            <intent-filter>
+264-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+265                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+265-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+265-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+266            </intent-filter>
+267            <intent-filter>
+267-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+268                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+268-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+268-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+269            </intent-filter>
+270            <intent-filter>
+270-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+271                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+271-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+271-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+272            </intent-filter>
+273            <intent-filter>
+273-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+274                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+274-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+274-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/54ffc39dc8a6afb4012e329d054c403f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+275            </intent-filter>
+276        </receiver>
+277
+278        <service
+278-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/b7a46f4dc66759fee83881b7cf5c9fb2/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+279            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+279-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/b7a46f4dc66759fee83881b7cf5c9fb2/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+280            android:exported="false" >
+280-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/b7a46f4dc66759fee83881b7cf5c9fb2/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+281            <meta-data
+281-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/b7a46f4dc66759fee83881b7cf5c9fb2/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+282                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+282-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/b7a46f4dc66759fee83881b7cf5c9fb2/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+283                android:value="cct" />
+283-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/b7a46f4dc66759fee83881b7cf5c9fb2/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+284        </service>
+285        <service
+285-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/0fd5aabb7a18f4bfb3ef339ad940fb19/transformed/transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+286            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+286-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/0fd5aabb7a18f4bfb3ef339ad940fb19/transformed/transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+287            android:exported="false"
+287-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/0fd5aabb7a18f4bfb3ef339ad940fb19/transformed/transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+288            android:permission="android.permission.BIND_JOB_SERVICE" >
+288-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/0fd5aabb7a18f4bfb3ef339ad940fb19/transformed/transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+289        </service>
+290
+291        <receiver
+291-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/0fd5aabb7a18f4bfb3ef339ad940fb19/transformed/transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+292            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+292-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/0fd5aabb7a18f4bfb3ef339ad940fb19/transformed/transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+293            android:exported="false" />
+293-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tasfikamali/.gradle/caches/9.2.1/transforms/0fd5aabb7a18f4bfb3ef339ad940fb19/transformed/transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+294    </application>
+295
+296</manifest>

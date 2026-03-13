@@ -1,0 +1,16 @@
+03-12 11:27:00.082 16971 16993 I TestRunner: started: testWaitlistFlow(com.example.lotterappjava.CheckpointTests)
+03-12 11:27:00.103  2831  2831 I WeatherSmartspaceView: setFormattedContentDescription: text=-11°C, iconDescription=Snow showers, contentDescription=Snow showers, -11°C
+03-12 11:27:00.103  2831  2831 I WeatherSmartspaceView: setFormattedContentDescription: text=-11°C, iconDescription=Snow showers, contentDescription=Snow showers, -11°C
+03-12 11:27:00.104  2831  2831 I WeatherData: Weather data parsed SCATTERED_SNOW_SHOWERS_DAY ("Snow showers") -11°C from Bundle[{description=Snow showers, feedback_intent=null, explanation_intent=Supplier{VAL_PARCELABLE@152+1744}, is_gaia_linked_data=true, use_celsius=true, state=23, temperature=-11}]
+03-12 11:27:00.110  5161  6097 D AidlBufferPool: bufferpool2 0xb400007bd3e52aa8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+03-12 11:27:00.111  5161  6097 W app_process: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+03-12 11:27:00.111  1453 16695 W samsung.hardware.media.c2@1.2-service: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. Use AIBinder_DeathRecipient_setOnUnlinked to manage the lifetime of the cookie. This will become an abort.
+03-12 11:27:00.406 16931 17020 W adbd    : timed out while waiting for FUNCTIONFS_BIND, trying again
+03-12 11:27:00.407 16931 17020 I adbd    : UsbFfs: connection terminated: monitor thread finished
+03-12 11:27:00.436 16931 16937 I adbd    : opening control endpoint /dev/usb-ffs/adb/ep0
+03-12 11:27:00.498 16971 16971 D EventController: Event created/updated with ID: test_event_1773336420105
+03-12 11:27:01.449 16931 17021 W adbd    : timed out while waiting for FUNCTIONFS_BIND, trying again
+03-12 11:27:01.450 16931 17021 I adbd    : UsbFfs: connection terminated: monitor thread finished
+03-12 11:27:01.472 16931 16937 I adbd    : opening control endpoint /dev/usb-ffs/adb/ep0
+03-12 11:27:02.227 16971 17023 D ProfileInstaller: Installing profile for com.example.lotterappjava
+03-12 11:27:02.252 16971 16993 I TestRunner: finished: testWaitlistFlow(com.example.lotterappjava.CheckpointTests)
