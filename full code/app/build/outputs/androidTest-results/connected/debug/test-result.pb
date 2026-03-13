@@ -1,126 +1,0 @@
-
-§
-ù
-CheckpointTestscom.example.lotterappjavatestLotteryAndInvitation2‡ÓÀÕ¿áæ):„ÓÀÕÄ•ü¥B:
-/adb-47161FDJH001GW-3qsQNq._adb-tls-connect._tcpprimary" 
-
-logcatandroid¥
-±/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/logcat-com.example.lotterappjava.CheckpointTests-testLotteryAndInvitation.txt"é
-
-device-infoandroidt
-r/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/device-info.pb"è
-
-device-info.meminfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/meminfo"è
-
-device-info.cpuinfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/cpuinfoï
-ñ
-CheckpointTestscom.example.lotterappjavatestWaitlistFlow2„ÓÀÕ¿ïï¿:ÂÓÀÕÄ†‘íB:
-/adb-47161FDJH001GW-3qsQNq._adb-tls-connect._tcpprimary"¬
-
-logcatandroid¨
-©/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/logcat-com.example.lotterappjava.CheckpointTests-testWaitlistFlow.txt"é
-
-device-infoandroidt
-r/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/device-info.pb"è
-
-device-info.meminfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/meminfo"è
-
-device-info.cpuinfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/cpuinfoö
-ò
-CheckpointTestscom.example.lotterappjavatestAdminManagement2ÂÓÀÕ¿∂Öï:ÁÓÀÕ¿≤Õ;B:
-/adb-47161FDJH001GW-3qsQNq._adb-tls-connect._tcpprimary"≈
-
-logcatandroidØ
-¨/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/logcat-com.example.lotterappjava.CheckpointTests-testAdminManagement.txt"é
-
-device-infoandroidt
-r/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/device-info.pb"è
-
-device-info.meminfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/meminfo"è
-
-device-info.cpuinfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/cpuinfo†
-õ
-CheckpointTestscom.example.lotterappjavatestEntrantProfileFlow2ÁÓÀÕÄ«´K:ËÓÀÕ¿°êÍB:
-/adb-47161FDJH001GW-3qsQNq._adb-tls-connect._tcpprimary"»
-
-logcatandroid≤
-Ø/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/logcat-com.example.lotterappjava.CheckpointTests-testEntrantProfileFlow.txt"é
-
-device-infoandroidt
-r/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/device-info.pb"è
-
-device-info.meminfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/meminfo"è
-
-device-info.cpuinfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/cpuinfo©
-†
-CheckpointTestscom.example.lotterappjavatestOrganizerEventCreation2ËÓÀÕ¿üΩ˜:ÈÓÀÕÄïáüB:
-/adb-47161FDJH001GW-3qsQNq._adb-tls-connect._tcpprimary"Ã
-
-logcatandroid∂
-≥/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/logcat-com.example.lotterappjava.CheckpointTests-testOrganizerEventCreation.txt"é
-
-device-infoandroidt
-r/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/device-info.pb"è
-
-device-info.meminfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/meminfo"è
-
-device-info.cpuinfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/cpuinfoî
-ï
-ControllerTestcom.example.lotterappjavatestUserLifecycle2ÈÓÀÕÄûÅ†:ÍÓÀÕÄ≠Î~B:
-/adb-47161FDJH001GW-3qsQNq._adb-tls-connect._tcpprimary"¬
-
-logcatandroid¨
-©/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/logcat-com.example.lotterappjava.ControllerTest-testUserLifecycle.txt"é
-
-device-infoandroidt
-r/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/device-info.pb"è
-
-device-info.meminfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/meminfo"è
-
-device-info.cpuinfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/cpuinfoü
-õ
-ExampleInstrumentedTestcom.example.lotterappjavauseAppContext2ÍÓÀÕ¿Ø’å:ÍÓÀÕÄ¥íçB:
-/adb-47161FDJH001GW-3qsQNq._adb-tls-connect._tcpprimary"«
-
-logcatandroid±
-Æ/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/logcat-com.example.lotterappjava.ExampleInstrumentedTest-useAppContext.txt"é
-
-device-infoandroidt
-r/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/device-info.pb"è
-
-device-info.meminfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/meminfo"è
-
-device-info.cpuinfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/cpuinfoá
-è
-IntentTestscom.example.lotterappjavauseAppContext2ÍÓÀÕÄΩåé:íÔÀÕÄòà»B:
-/adb-47161FDJH001GW-3qsQNq._adb-tls-connect._tcpprimary"ª
-
-logcatandroid•
-¢/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/logcat-com.example.lotterappjava.IntentTests-useAppContext.txt"é
-
-device-infoandroidt
-r/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/device-info.pb"è
-
-device-info.meminfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/meminfo"è
-
-device-info.cpuinfoandroidm
-k/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/cpuinfo*Û
-c
-test-results.logOcom.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver~
-|/Users/tasfikamali/Desktop/final/app/build/outputs/androidTest-results/connected/debug/Pixel 8 - 16/testlog/test-results.log 2
-text/plain

@@ -1,3 +1,0 @@
-03-12 11:27:06.987 16971 16993 I TestRunner: started: useAppContext(com.example.lotterappjava.ExampleInstrumentedTest)
-03-12 11:27:06.988  1912  2736 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
-03-12 11:27:06.990 16971 16993 I TestRunner: finished: useAppContext(com.example.lotterappjava.ExampleInstrumentedTest)
