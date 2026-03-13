@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".EntrantHomeFragment">
+
+    <TextView
+        android:id="@+id/text_discover_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Discover Events"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_logout"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Logout"
+        android:src="@android:drawable/ic_lock_power_off"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@id/text_discover_events"
+        app:layout_constraintEnd_toStartOf="@id/notification_container"
+        app:layout_constraintTop_toTopOf="@id/text_discover_events"
+        app:tint="#DC2626" />
+
+    <FrameLayout
+        android:id="@+id/notification_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/text_discover_events"
+        app:layout_constraintEnd_toStartOf="@id/btn_profile"
+        app:layout_constraintTop_toTopOf="@id/text_discover_events">
+
+        <ImageView
+            android:id="@+id/btn_notifications"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:contentDescription="Notifications"
+            android:src="@drawable/ic_notifications"
+            android:scaleType="centerInside"
+            app:tint="#111827" />
+
+        <TextView
+            android:id="@+id/notification_badge"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="top|end"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/btn_profile"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Profile"
+        android:src="@drawable/ic_account"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@id/text_discover_events"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_discover_events"
+        app:tint="#111827" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view_events"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/search_bg"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search by name..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_discover_events" />
+
+    <HorizontalScrollView
+        android:id="@+id/filters_scroll"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_view_events">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp">
+
+            <TextView
+                android:id="@+id/filter_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/chip_background"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="8dp"
+                android:text="All Events"
+                android:textColor="#4F46E5"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/filter_my_applications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chip_background"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="8dp"
+                android:text="Applied events"
+                android:textColor="#6B7280"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_events"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:paddingHorizontal="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filters_scroll" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
