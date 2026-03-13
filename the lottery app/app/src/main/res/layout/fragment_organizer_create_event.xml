@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFB">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Back"
+            android:src="@drawable/ic_arrow_back"
+            android:scaleType="centerInside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#111827" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="Create Event"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintBottom_toBottomOf="@id/btn_back"
+            app:layout_constraintStart_toEndOf="@id/btn_back"
+            app:layout_constraintTop_toTopOf="@id/btn_back" />
+
+        <TextView
+            android:id="@+id/label_event_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Event Title"
+            android:textColor="#4B5563"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_back" />
+
+        <EditText
+            android:id="@+id/edit_event_title"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/edit_text_rounded_outline"
+            android:hint="e.g. Summer Swimming Gala"
+            android:inputType="text"
+            android:paddingHorizontal="16dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_event_title" />
+
+        <TextView
+            android:id="@+id/label_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Description"
+            android:textColor="#4B5563"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_event_title" />
+
+        <EditText
+            android:id="@+id/edit_description"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/edit_text_rounded_outline"
+            android:gravity="top"
+            android:hint="Details about the event..."
+            android:inputType="textMultiLine"
+            android:padding="16dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_description" />
+
+        <LinearLayout
+            android:id="@+id/row_date_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_description">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Event Date" android:textSize="12sp" android:textColor="#4B5563"/>
+                <EditText android:id="@+id/edit_event_date" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:background="@drawable/edit_text_rounded_outline" android:hint="YYYY-MM-DD" android:paddingHorizontal="16dp" android:textSize="14sp" android:focusable="false" android:clickable="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Price ($)" android:textSize="12sp" android:textColor="#4B5563"/>
+                <EditText android:id="@+id/edit_price" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:background="@drawable/edit_text_rounded_outline" android:hint="e.g. 60.00" android:inputType="numberDecimal" android:paddingHorizontal="16dp" android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row_cap_wait"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/row_date_price">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_capacity" android:textSize="12sp" android:textColor="#4B5563"/>
+                <EditText android:id="@+id/edit_capacity" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:background="@drawable/edit_text_rounded_outline" android:hint="@string/hint_capacity" android:inputType="number" android:paddingHorizontal="16dp" android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Waitlist Limit" android:textSize="12sp" android:textColor="#4B5563"/>
+                <EditText android:id="@+id/edit_waitlist_limit" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:background="@drawable/edit_text_rounded_outline" android:hint="No limit" android:inputType="number" android:paddingHorizontal="16dp" android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/row_cap_wait">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start Time" android:textSize="12sp" android:textColor="#4B5563"/>
+                <EditText android:id="@+id/edit_start_time" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:background="@drawable/edit_text_rounded_outline" android:hint="HH:mm" android:paddingHorizontal="16dp" android:textSize="14sp" android:focusable="false" android:clickable="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End Time" android:textSize="12sp" android:textColor="#4B5563"/>
+                <EditText android:id="@+id/edit_end_time" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:background="@drawable/edit_text_rounded_outline" android:hint="HH:mm" android:paddingHorizontal="16dp" android:textSize="14sp" android:focusable="false" android:clickable="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row_reg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/row_time">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reg Open" android:textSize="12sp" android:textColor="#4B5563"/>
+                <EditText android:id="@+id/edit_reg_open" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:background="@drawable/edit_text_rounded_outline" android:hint="YYYY-MM-DD" android:paddingHorizontal="16dp" android:textSize="14sp" android:focusable="false" android:clickable="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reg Close" android:textSize="12sp" android:textColor="#4B5563"/>
+                <EditText android:id="@+id/edit_reg_close" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="4dp" android:background="@drawable/edit_text_rounded_outline" android:hint="YYYY-MM-DD" android:paddingHorizontal="16dp" android:textSize="14sp" android:focusable="false" android:clickable="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_location_verification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/edit_text_rounded_outline"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/row_reg">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_dialog_map"
+                app:tint="#4B5563" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:text="Require Location Verification?"
+                android:textColor="#374151"
+                android:textSize="14sp" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:thumbTint="@color/switch_thumb_selector"
+                app:trackTint="#E5E7EB" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_upload_poster"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/edit_text_rounded_outline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_location_verification">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="32dp" android:layout_height="32dp" android:src="@android:drawable/ic_input_add" app:tint="#D1D5DB"/>
+                <TextView android:id="@+id/text_upload_poster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tap to upload event poster" android:textColor="#9CA3AF" android:textSize="12sp" android:layout_marginTop="8dp"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/image_poster_preview" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:visibility="gone"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_upload_qr"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_rounded_outline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_upload_poster">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="32dp" android:layout_height="32dp" android:src="@android:drawable/ic_input_add" app:tint="#D1D5DB"/>
+                <TextView android:id="@+id/text_upload_qr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tap to upload promotional QR code" android:textColor="#9CA3AF" android:textSize="12sp" android:layout_marginTop="8dp"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/image_qr_preview" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:visibility="gone"/>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btn_publish"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#2563EB"
+            android:text="Publish Event"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_upload_qr" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
