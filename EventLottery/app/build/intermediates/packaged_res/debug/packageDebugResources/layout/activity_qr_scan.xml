@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Camera preview -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Overlay -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Top dim -->
+        <View android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:background="#80000000"/>
+
+        <!-- Middle row -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="260dp"
+            android:orientation="horizontal">
+            <View android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1" android:background="#80000000"/>
+
+            <!-- Scan window -->
+            <View android:layout_width="260dp" android:layout_height="260dp"
+                android:background="@drawable/bg_scan_window"/>
+
+            <View android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1" android:background="#80000000"/>
+        </LinearLayout>
+
+        <!-- Bottom dim -->
+        <View android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:background="#80000000"/>
+    </LinearLayout>
+
+    <!-- UI controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Top bar -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="56dp"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:paddingHorizontal="8dp">
+
+            <ImageView android:id="@+id/iv_close"
+                android:layout_width="44dp" android:layout_height="44dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_close"
+                android:tint="@color/white"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:gravity="center"
+                android:text="@string/scan_qr"
+                android:textColor="@color/white" android:textSize="17sp" android:textStyle="bold"/>
+
+            <View android:layout_width="44dp" android:layout_height="44dp"/>
+        </LinearLayout>
+
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+
+        <!-- Bottom hint -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Point your camera at an EventLottery QR code"
+            android:textColor="#CCffffff" android:textSize="14sp"
+            android:paddingBottom="60dp"/>
+    </LinearLayout>
+</FrameLayout>

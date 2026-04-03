@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\fragment_calendar.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_calendar.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_entrant_main.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_entrant_main.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_qr_scan.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_qr_scan.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_registration.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_registration.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\fragment_organizer_dashboard.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_organizer_dashboard.xml"
+    },
+    {
+        "merged": "com.example.eventlottery.app-mergeDebugResources-4:/layout/item_event_card.xml",
+        "source": "com.example.eventlottery.app-main-7:/layout/item_event_card.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_comment.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_admin_user.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_admin_user.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_event_card.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_event_card.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_admin_main.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_admin_main.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\dialog_full_image.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\dialog_full_image.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_organizer_main.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_organizer_main.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_event_detail.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_event_detail.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_notification.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_profile.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\fragment_discover_events.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_discover_events.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\dialog_qr_code.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\dialog_qr_code.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\fragment_my_events.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_my_events.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_admin_event.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_admin_event.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_organizer_event.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_organizer_event.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\dialog_search_user.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\dialog_search_user.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_profile.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_profile.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_dropdown_filter.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_dropdown_filter.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_map_view.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_map_view.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_login.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\dialog_create_profile.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\dialog_create_profile.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\fragment_notifications.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_organizer_event_management.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_organizer_event_management.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\fragment_admin_dashboard.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_admin_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\item_my_event.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_my_event.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-mergeDebugResources-4:\\layout\\activity_create_event.xml",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_create_event.xml"
+    }
+]

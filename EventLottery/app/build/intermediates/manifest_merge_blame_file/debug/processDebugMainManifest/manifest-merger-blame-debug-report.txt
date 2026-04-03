@@ -1,0 +1,616 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.eventlottery"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:8:5-65
+14-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:9:5-77
+15-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:10:5-66
+16-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:10:22-63
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission
+18-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:12:5-108
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:12:22-78
+20        android:maxSdkVersion="18" />
+20-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:12:79-105
+21
+22    <uses-feature
+22-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:14:5-85
+23        android:name="android.hardware.camera"
+23-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:14:19-57
+24        android:required="false" />
+24-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:14:58-82
+25
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:24:5-68
+26-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:26:22-79
+28
+29    <supports-screens
+29-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+30        android:anyDensity="true"
+30-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+31        android:largeScreens="true"
+31-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+32        android:normalScreens="true" />
+32-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+33
+34    <uses-feature
+34-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+35        android:name="android.hardware.location.network"
+35-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+36        android:required="false" />
+36-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+37    <uses-feature
+37-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+38        android:name="android.hardware.location.gps"
+38-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+39        android:required="false" />
+39-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+40    <uses-feature
+40-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+41        android:name="android.hardware.telephony"
+41-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
+42        android:required="false" />
+42-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
+43    <uses-feature
+43-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+44        android:name="android.hardware.wifi"
+44-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
+45        android:required="false" />
+45-->[org.osmdroid:osmdroid-android:6.1.18] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7530199020ec4d9c87535bdc8c66ec65\transformed\jetified-osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+46    <uses-feature
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+47        android:name="android.hardware.camera.front"
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+48        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+49    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+50    <uses-feature
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+51        android:name="android.hardware.camera.autofocus"
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+52        android:required="false" />
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+53    <uses-feature
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+54        android:name="android.hardware.camera.flash"
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+55        android:required="false" />
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+56    <uses-feature
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+57        android:name="android.hardware.screen.landscape"
+57-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+58        android:required="false" />
+58-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+59
+60    <permission
+60-->[androidx.core:core:1.13.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7b2fdb6816a4c7e20a3d7a4a02ec21a8\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+61        android:name="com.example.eventlottery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+61-->[androidx.core:core:1.13.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7b2fdb6816a4c7e20a3d7a4a02ec21a8\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+62        android:protectionLevel="signature" />
+62-->[androidx.core:core:1.13.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7b2fdb6816a4c7e20a3d7a4a02ec21a8\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+63
+64    <uses-permission android:name="com.example.eventlottery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+64-->[androidx.core:core:1.13.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7b2fdb6816a4c7e20a3d7a4a02ec21a8\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+64-->[androidx.core:core:1.13.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7b2fdb6816a4c7e20a3d7a4a02ec21a8\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+65
+66    <application
+66-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:16:5-91:19
+67        android:allowBackup="true"
+67-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:17:9-35
+68        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+68-->[androidx.core:core:1.13.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\7b2fdb6816a4c7e20a3d7a4a02ec21a8\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+69        android:debuggable="true"
+70        android:extractNativeLibs="false"
+71        android:icon="@mipmap/ic_launcher"
+71-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:18:9-43
+72        android:label="@string/app_name"
+72-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:19:9-41
+73        android:roundIcon="@mipmap/ic_launcher_round"
+73-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:20:9-54
+74        android:supportsRtl="true"
+74-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:21:9-35
+75        android:testOnly="true"
+76        android:theme="@style/Theme.EventLottery" >
+76-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:22:9-50
+77
+78        <!-- Login / Account Selection -->
+79        <activity
+79-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:26:9-41:20
+80            android:name="com.example.eventlottery.activities.LoginActivity"
+80-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:27:13-53
+81            android:exported="true"
+81-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:28:13-36
+82            android:screenOrientation="portrait" >
+82-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:29:13-49
+83            <intent-filter>
+83-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:30:13-33:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:31:17-69
+84-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:31:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:32:17-77
+86-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:32:27-74
+87            </intent-filter>
+88            <!-- Deep link for QR codes (custom scheme — autoVerify not needed) -->
+89            <intent-filter>
+89-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:35:13-40:29
+90                <action android:name="android.intent.action.VIEW" />
+90-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:36:17-69
+90-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:36:25-66
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:37:17-76
+92-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:37:27-73
+93                <category android:name="android.intent.category.BROWSABLE" />
+93-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:38:17-78
+93-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:38:27-75
+94
+95                <data
+95-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:39:17-76
+96                    android:host="event"
+96-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:39:53-73
+97                    android:scheme="eventlottery" />
+97-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:39:23-52
+98            </intent-filter>
+99        </activity>
+100
+101        <!-- Entrant Activities -->
+102        <activity
+102-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:44:9-46:52
+103            android:name="com.example.eventlottery.activities.EntrantMainActivity"
+103-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:44:19-65
+104            android:exported="false"
+104-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:45:13-37
+105            android:screenOrientation="portrait" />
+105-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:46:13-49
+106        <activity
+106-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:47:9-49:52
+107            android:name="com.example.eventlottery.activities.EventDetailActivity"
+107-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:47:19-65
+108            android:exported="false"
+108-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:48:13-37
+109            android:screenOrientation="portrait" />
+109-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:49:13-49
+110        <activity
+110-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:50:9-52:52
+111            android:name="com.example.eventlottery.activities.QRScanActivity"
+111-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:50:19-60
+112            android:exported="false"
+112-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:51:13-37
+113            android:screenOrientation="portrait" />
+113-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:52:13-49
+114
+115        <!-- Organizer Activities -->
+116        <activity
+116-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:55:9-57:52
+117            android:name="com.example.eventlottery.activities.OrganizerMainActivity"
+117-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:55:19-67
+118            android:exported="false"
+118-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:56:13-37
+119            android:screenOrientation="portrait" />
+119-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:57:13-49
+120        <activity
+120-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:58:9-60:52
+121            android:name="com.example.eventlottery.activities.CreateEventActivity"
+121-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:58:19-65
+122            android:exported="false"
+122-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:59:13-37
+123            android:screenOrientation="portrait" />
+123-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:60:13-49
+124        <activity
+124-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:61:9-63:52
+125            android:name="com.example.eventlottery.activities.OrganizerEventManagementActivity"
+125-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:61:19-78
+126            android:exported="false"
+126-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:62:13-37
+127            android:screenOrientation="portrait" />
+127-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:63:13-49
+128        <activity
+128-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:64:9-66:52
+129            android:name="com.example.eventlottery.activities.EntrantMapActivity"
+129-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:64:19-64
+130            android:exported="false"
+130-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:65:13-37
+131            android:screenOrientation="portrait" />
+131-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:66:13-49
+132
+133        <!-- Admin Activities -->
+134        <activity
+134-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:69:9-71:52
+135            android:name="com.example.eventlottery.activities.AdminMainActivity"
+135-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:69:19-63
+136            android:exported="false"
+136-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:70:13-37
+137            android:screenOrientation="portrait" />
+137-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:71:13-49
+138
+139        <!-- Profile Activity (shared) -->
+140        <activity
+140-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:74:9-76:52
+141            android:name="com.example.eventlottery.activities.ProfileActivity"
+141-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:74:19-61
+142            android:exported="false"
+142-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:75:13-37
+143            android:screenOrientation="portrait" />
+143-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:76:13-49
+144
+145        <!-- FCM Service -->
+146        <service
+146-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:79:9-85:19
+147            android:name="com.example.eventlottery.utils.MyFirebaseMessagingService"
+147-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:80:13-61
+148            android:exported="false" >
+148-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:81:13-37
+149            <intent-filter>
+149-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:82:13-84:29
+150                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+150-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:83:17-78
+150-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:83:25-75
+151            </intent-filter>
+152        </service>
+153
+154        <meta-data
+154-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:87:9-89:53
+155            android:name="com.google.firebase.messaging.default_notification_channel_id"
+155-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:88:13-89
+156            android:value="event_lottery_channel" />
+156-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:89:13-50
+157
+158        <!--
+159        Service for holding metadata. Cannot be instantiated.
+160        Metadata will be merged from other manifests.
+161        -->
+162        <service
+162-->[androidx.camera:camera-core:1.3.4] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\47c8d02f6e2f3a4b45a3d9b257e25a08\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:29:9-33:78
+163            android:name="androidx.camera.core.impl.MetadataHolderService"
+163-->[androidx.camera:camera-core:1.3.4] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\47c8d02f6e2f3a4b45a3d9b257e25a08\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:30:13-75
+164            android:enabled="false"
+164-->[androidx.camera:camera-core:1.3.4] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\47c8d02f6e2f3a4b45a3d9b257e25a08\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:31:13-36
+165            android:exported="false" >
+165-->[androidx.camera:camera-core:1.3.4] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\47c8d02f6e2f3a4b45a3d9b257e25a08\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:32:13-37
+166            <meta-data
+166-->[androidx.camera:camera-camera2:1.3.4] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\4b1fad9a92da67fd98a89820a798fb2b\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+167                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+167-->[androidx.camera:camera-camera2:1.3.4] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\4b1fad9a92da67fd98a89820a798fb2b\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+168                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+168-->[androidx.camera:camera-camera2:1.3.4] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\4b1fad9a92da67fd98a89820a798fb2b\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+169        </service>
+170        <service
+170-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9b445426407ef2d13e4e01eedfe923a0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+171            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+171-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9b445426407ef2d13e4e01eedfe923a0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+172            android:directBootAware="true"
+172-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:17:13-43
+173            android:exported="false" >
+173-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9b445426407ef2d13e4e01eedfe923a0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+174            <meta-data
+174-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9b445426407ef2d13e4e01eedfe923a0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+175                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+175-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9b445426407ef2d13e4e01eedfe923a0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9b445426407ef2d13e4e01eedfe923a0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+177            <meta-data
+177-->[com.google.mlkit:vision-common:17.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c4f5bb1c4f61714fd985c56e663691db\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+178                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+178-->[com.google.mlkit:vision-common:17.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c4f5bb1c4f61714fd985c56e663691db\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.mlkit:vision-common:17.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c4f5bb1c4f61714fd985c56e663691db\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+180            <meta-data
+180-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:20:13-22:85
+181                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+181-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:21:17-120
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:22:17-82
+183        </service>
+184
+185        <provider
+185-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:9:9-13:38
+186            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+186-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:10:13-78
+187            android:authorities="com.example.eventlottery.mlkitinitprovider"
+187-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:11:13-69
+188            android:exported="false"
+188-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:12:13-37
+189            android:initOrder="99" />
+189-->[com.google.mlkit:common:18.11.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5019f26b10225656e0fdb12f94d3967f\transformed\jetified-common-18.11.0\AndroidManifest.xml:13:13-35
+190
+191        <service
+191-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:14:9-23:19
+192            android:name="com.google.firebase.components.ComponentDiscoveryService"
+192-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:15:13-84
+193            android:directBootAware="true"
+193-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+194            android:exported="false" >
+194-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:16:13-37
+195            <meta-data
+195-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+196                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+196-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+198            <meta-data
+198-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+199                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+199-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[com.google.firebase:firebase-firestore:25.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f8cf1e8928d31b93aa5342b105c01feb\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+201            <meta-data
+201-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:57:13-59:85
+202                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+202-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:58:17-122
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:59:17-82
+204            <meta-data
+204-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:60:13-62:85
+205                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+205-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:61:17-119
+206                android:value="com.google.firebase.components.ComponentRegistrar" />
+206-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:62:17-82
+207            <meta-data
+207-->[com.google.firebase:firebase-storage:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\cb885a5cee29312028b8ae00d8e108f6\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
+208                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+208-->[com.google.firebase:firebase-storage:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\cb885a5cee29312028b8ae00d8e108f6\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-storage:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\cb885a5cee29312028b8ae00d8e108f6\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
+210            <meta-data
+210-->[com.google.firebase:firebase-storage:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\cb885a5cee29312028b8ae00d8e108f6\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
+211                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+211-->[com.google.firebase:firebase-storage:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\cb885a5cee29312028b8ae00d8e108f6\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.firebase:firebase-storage:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\cb885a5cee29312028b8ae00d8e108f6\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
+213            <meta-data
+213-->[com.google.firebase:firebase-appcheck:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\8f82c6f6841e845b29b92b9afab5c21b\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+214                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+214-->[com.google.firebase:firebase-appcheck:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\8f82c6f6841e845b29b92b9afab5c21b\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.firebase:firebase-appcheck:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\8f82c6f6841e845b29b92b9afab5c21b\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-appcheck:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\8f82c6f6841e845b29b92b9afab5c21b\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+217                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+217-->[com.google.firebase:firebase-appcheck:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\8f82c6f6841e845b29b92b9afab5c21b\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-appcheck:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\8f82c6f6841e845b29b92b9afab5c21b\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+219            <meta-data
+219-->[com.google.firebase:firebase-datatransport:18.2.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f49052c4f8de2d29d0bd17b70b132659\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+220                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+220-->[com.google.firebase:firebase-datatransport:18.2.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f49052c4f8de2d29d0bd17b70b132659\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.firebase:firebase-datatransport:18.2.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\f49052c4f8de2d29d0bd17b70b132659\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-installations:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c8dd2de47c538d83b1642eeca324629c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+223                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+223-->[com.google.firebase:firebase-installations:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c8dd2de47c538d83b1642eeca324629c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-installations:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c8dd2de47c538d83b1642eeca324629c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+225            <meta-data
+225-->[com.google.firebase:firebase-installations:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c8dd2de47c538d83b1642eeca324629c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+226                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+226-->[com.google.firebase:firebase-installations:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c8dd2de47c538d83b1642eeca324629c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-installations:18.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\c8dd2de47c538d83b1642eeca324629c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+228            <meta-data
+228-->[com.google.firebase:firebase-common-ktx:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\e679183f015d9a188bccc546b381af73\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+229                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+229-->[com.google.firebase:firebase-common-ktx:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\e679183f015d9a188bccc546b381af73\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.firebase:firebase-common-ktx:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\e679183f015d9a188bccc546b381af73\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+231            <meta-data
+231-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+232                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+232-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+234        </service>
+235
+236        <receiver
+236-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:29:9-40:20
+237            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+237-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:30:13-78
+238            android:exported="true"
+238-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:31:13-36
+239            android:permission="com.google.android.c2dm.permission.SEND" >
+239-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:32:13-73
+240            <intent-filter>
+240-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:33:13-35:29
+241                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+241-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:34:17-81
+241-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:34:25-78
+242            </intent-filter>
+243
+244            <meta-data
+244-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:37:13-39:40
+245                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+245-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:38:17-92
+246                android:value="true" />
+246-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:39:17-37
+247        </receiver>
+248        <!--
+249             FirebaseMessagingService performs security checks at runtime,
+250             but set to not exported to explicitly avoid allowing another app to call it.
+251        -->
+252        <service
+252-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:46:9-53:19
+253            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+253-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:47:13-82
+254            android:directBootAware="true"
+254-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:48:13-43
+255            android:exported="false" >
+255-->[com.google.firebase:firebase-messaging:24.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\dff54a247f27bf04222bc567fea3d2d2\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:49:13-37
+256            <intent-filter android:priority="-500" >
+256-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:82:13-84:29
+257                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+257-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:83:17-78
+257-->C:\Users\chowd\OneDrive\Documents\WINTER_2026\CMPUT 301\madrid-events\EventLottery\app\src\main\AndroidManifest.xml:83:25-75
+258            </intent-filter>
+259        </service>
+260
+261        <activity
+261-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+262            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+262-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+263            android:clearTaskOnLaunch="true"
+263-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+264            android:screenOrientation="sensorLandscape"
+264-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+265            android:stateNotNeeded="true"
+265-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+266            android:theme="@style/zxing_CaptureTheme"
+266-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+267            android:windowSoftInputMode="stateAlwaysHidden" />
+267-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\5265769b458ba7903c41393a39e9ce1f\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+268
+269        <service
+269-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\ae6a9bde78d3143d5ceb8682fd8945b1\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+270            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+270-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\ae6a9bde78d3143d5ceb8682fd8945b1\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+271            android:exported="false" >
+271-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\ae6a9bde78d3143d5ceb8682fd8945b1\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+272            <meta-data
+272-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\ae6a9bde78d3143d5ceb8682fd8945b1\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+273                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+273-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\ae6a9bde78d3143d5ceb8682fd8945b1\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+274                android:value="cct" />
+274-->[com.google.android.datatransport:transport-backend-cct:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\ae6a9bde78d3143d5ceb8682fd8945b1\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+275        </service>
+276        <service
+276-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\fe16e9fdfa73dfee7f99eefb647e9f95\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+277            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+277-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\fe16e9fdfa73dfee7f99eefb647e9f95\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+278            android:exported="false"
+278-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\fe16e9fdfa73dfee7f99eefb647e9f95\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+279            android:permission="android.permission.BIND_JOB_SERVICE" >
+279-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\fe16e9fdfa73dfee7f99eefb647e9f95\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+280        </service>
+281
+282        <receiver
+282-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\fe16e9fdfa73dfee7f99eefb647e9f95\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+283            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+283-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\fe16e9fdfa73dfee7f99eefb647e9f95\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+284            android:exported="false" />
+284-->[com.google.android.datatransport:transport-runtime:3.1.9] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\fe16e9fdfa73dfee7f99eefb647e9f95\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+285
+286        <provider
+286-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+287            android:name="com.google.firebase.provider.FirebaseInitProvider"
+287-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+288            android:authorities="com.example.eventlottery.firebaseinitprovider"
+288-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+289            android:directBootAware="true"
+289-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+290            android:exported="false"
+290-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+291            android:initOrder="100" />
+291-->[com.google.firebase:firebase-common:21.0.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\2f8d5a1479634896634b2fc1bd1913be\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+292
+293        <activity
+293-->[com.google.android.gms:play-services-base:18.5.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d7e26b0096f7b77a6f85d95acef205f8\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+294            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+294-->[com.google.android.gms:play-services-base:18.5.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d7e26b0096f7b77a6f85d95acef205f8\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+295            android:exported="false"
+295-->[com.google.android.gms:play-services-base:18.5.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d7e26b0096f7b77a6f85d95acef205f8\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+296            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+296-->[com.google.android.gms:play-services-base:18.5.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d7e26b0096f7b77a6f85d95acef205f8\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+297
+298        <provider
+298-->[androidx.emoji2:emoji2:1.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9d8a4ff32e38023cbdb7ff1de665c2cd\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+299            android:name="androidx.startup.InitializationProvider"
+299-->[androidx.emoji2:emoji2:1.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9d8a4ff32e38023cbdb7ff1de665c2cd\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+300            android:authorities="com.example.eventlottery.androidx-startup"
+300-->[androidx.emoji2:emoji2:1.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9d8a4ff32e38023cbdb7ff1de665c2cd\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+301            android:exported="false" >
+301-->[androidx.emoji2:emoji2:1.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9d8a4ff32e38023cbdb7ff1de665c2cd\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+302            <meta-data
+302-->[androidx.emoji2:emoji2:1.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9d8a4ff32e38023cbdb7ff1de665c2cd\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+303                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+303-->[androidx.emoji2:emoji2:1.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9d8a4ff32e38023cbdb7ff1de665c2cd\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+304                android:value="androidx.startup" />
+304-->[androidx.emoji2:emoji2:1.3.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\9d8a4ff32e38023cbdb7ff1de665c2cd\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+305            <meta-data
+305-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\3ea9da9356e8422a0250daf8aff75df5\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+306                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+306-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\3ea9da9356e8422a0250daf8aff75df5\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+307                android:value="androidx.startup" />
+307-->[androidx.lifecycle:lifecycle-process:2.6.2] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\3ea9da9356e8422a0250daf8aff75df5\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+308            <meta-data
+308-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+309                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+309-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+310                android:value="androidx.startup" />
+310-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+311        </provider>
+312
+313        <meta-data
+313-->[com.google.android.gms:play-services-basement:18.4.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\eeb08ddfce6c970856806293ec6dccf4\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+314            android:name="com.google.android.gms.version"
+314-->[com.google.android.gms:play-services-basement:18.4.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\eeb08ddfce6c970856806293ec6dccf4\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+315            android:value="@integer/google_play_services_version" />
+315-->[com.google.android.gms:play-services-basement:18.4.0] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\eeb08ddfce6c970856806293ec6dccf4\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+316
+317        <receiver
+317-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+318            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+318-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+319            android:directBootAware="false"
+319-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+320            android:enabled="true"
+320-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+321            android:exported="true"
+321-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+322            android:permission="android.permission.DUMP" >
+322-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+323            <intent-filter>
+323-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+324                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+324-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+324-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+325            </intent-filter>
+326            <intent-filter>
+326-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+327                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+327-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+327-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+328            </intent-filter>
+329            <intent-filter>
+329-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+330                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+330-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+330-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+331            </intent-filter>
+332            <intent-filter>
+332-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+333                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+333-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+333-->[androidx.profileinstaller:profileinstaller:1.3.1] D:\Android Studio\Android\Sdk\caches\8.10.2\transforms\d8bae21c0d95b950d33b701d9a9b9f18\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+334            </intent-filter>
+335        </receiver>
+336    </application>
+337
+338</manifest>

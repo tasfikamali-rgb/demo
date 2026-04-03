@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EventLottery</string>
+    <string name="app_tagline">Fair, lottery-based event registration for community centres.</string>
+
+    <!-- Google Maps API Key -->
+    <string name="google_maps_key" translatable="false">AIzaSyA1gdTgZPUP_MNl90xt8wUKRnh2dVfAegA</string>
+
+    <!-- Navigation -->
+    <string name="nav_events">Events</string>
+    <string name="nav_my_events">My Events</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_browse">Browse</string>
+    <string name="nav_admin">Admin</string>
+
+    <!-- Common -->
+    <string name="btn_save">Save Changes</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_ok">OK</string>
+
+    <!-- Login -->
+    <string name="quick_login">Quick Login</string>
+    <string name="select_demo_account">Select a profile to continue</string>
+    <string name="create_new_profile">Create New Profile</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="select_roles">Select your role(s)</string>
+    <string name="role_entrant">Entrant</string>
+    <string name="role_organizer">Organizer</string>
+    <string name="role_admin">Admin</string>
+    <string name="hint_name">Full Name *</string>
+    <string name="hint_email">Email Address *</string>
+    <string name="hint_phone">Phone (optional)</string>
+
+    <!-- Events -->
+    <string name="discover_events">Discover Events</string>
+    <string name="find_events_subtitle">Find community events and join the lottery</string>
+    <string name="search_events">Search events…</string>
+    <string name="filter">Filter</string>
+    <string name="no_events_found">No events found</string>
+    <string name="try_different_search">Try a different search or clear filters</string>
+    <string name="days_left">%d days left</string>
+    <string name="spots_available">%d spots</string>
+    <string name="on_waiting_list">%d on waiting list</string>
+
+    <!-- Event Detail -->
+    <string name="join_waiting_list">Join Waiting List</string>
+    <string name="leave_waiting_list">Leave Waiting List</string>
+    <string name="accept_invitation">Accept</string>
+    <string name="decline_invitation">Decline</string>
+    <string name="how_lottery_works">How the lottery works</string>
+    <string name="lottery_explanation">After registration closes, the organizer will randomly select entrants from the waiting list. Selected entrants will be notified and must accept or decline. If someone declines, another entrant will be drawn as a replacement.</string>
+    <string name="organized_by">Organized by %s</string>
+    <string name="registration_period">Registration Period</string>
+    <string name="about_event">About</string>
+    <string name="comments">Comments</string>
+    <string name="post_comment">Post</string>
+    <string name="write_comment">Write a comment…</string>
+    <string name="share_qr">Share QR Code</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="you_selected">🎉 You\'ve been selected!</string>
+    <string name="selected_message">Please accept or decline your spot for this event.</string>
+
+    <!-- My Events -->
+    <string name="my_events">My Events</string>
+    <string name="your_event_history">Your event history and current registrations</string>
+    <string name="no_registrations">No registrations yet</string>
+    <string name="browse_events_prompt">Browse events to join the lottery!</string>
+
+    <!-- Calendar -->
+    <string name="calendar">Calendar</string>
+    <string name="no_events_today">No events on this date</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+    <string name="mark_all_read">Mark all read</string>
+    <string name="no_notifications">No notifications yet</string>
+    <string name="action_required">Action Required</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="push_notifications_desc">Lottery results, invitations, updates</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="delete_profile_confirm">Are you sure you want to delete your profile? This action cannot be undone.</string>
+    <string name="sign_out_confirm">Are you sure you want to sign out?</string>
+
+    <!-- Organizer -->
+    <string name="dashboard">Dashboard</string>
+    <string name="new_event">+ New Event</string>
+    <string name="create_event">Create Event</string>
+    <string name="your_events">Your Events</string>
+    <string name="no_events_created">No events yet. Create your first event!</string>
+    <string name="run_lottery">Run Lottery</string>
+    <string name="draw_replacement">Draw Replacement</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="all_entrants">All Entrants</string>
+    <string name="selected_entrants">Selected</string>
+    <string name="cancelled_entrants">Cancelled</string>
+    <string name="tab_waiting">Waiting</string>
+    <string name="tab_invited">Invited</string>
+    <string name="tab_enrolled">Enrolled</string>
+    <string name="tab_cancelled">Cancelled</string>
+    <string name="lottery_sample_prompt">How many attendees to select?</string>
+    <string name="lottery_running">Running lottery…</string>
+    <string name="lottery_success">Lottery complete! %d selected, %d notified.</string>
+    <string name="replacement_drawn">Replacement drawn and notified!</string>
+    <string name="no_waiting_list">No one on the waiting list to draw from.</string>
+
+    <!-- Create Event -->
+    <string name="basic_info">Basic Info</string>
+    <string name="schedule">Schedule</string>
+    <string name="capacity_pricing">Capacity &amp; Pricing</string>
+    <string name="options">Options</string>
+    <string name="hint_event_title">Event Title *</string>
+    <string name="hint_description">Description *</string>
+    <string name="hint_location">Location *</string>
+    <string name="hint_tags">Tags (comma-separated)</string>
+    <string name="hint_capacity">Max Capacity *</string>
+    <string name="hint_max_waiting_list">Max Waiting List (0 = unlimited)</string>
+    <string name="hint_price">Price (0 = Free)</string>
+    <string name="hint_poster_url">Poster Image URL</string>
+    <string name="private_event">Private Event</string>
+    <string name="private_event_desc">Not listed publicly; share via QR code only</string>
+    <string name="require_geolocation">Require Geolocation</string>
+    <string name="geolocation_desc">Entrants must share location to join</string>
+    <string name="event_created_success">Event created successfully!</string>
+    <string name="event_start">Event Start *</string>
+    <string name="event_end">Event End *</string>
+    <string name="reg_opens">Registration Opens *</string>
+    <string name="reg_closes">Registration Closes *</string>
+
+    <!-- Admin -->
+    <string name="admin_panel">Admin Panel</string>
+    <string name="tab_users">Users</string>
+    <string name="tab_events">Events</string>
+    <string name="tab_images">Images</string>
+    <string name="tab_logs">Logs</string>
+    <string name="search_users_events">Search users, events…</string>
+    <string name="delete_user_confirm">Delete this user profile? This cannot be undone.</string>
+    <string name="delete_event_confirm">Delete this event? All registrations will be removed.</string>
+    <string name="delete_image_confirm">Remove this poster image?</string>
+
+    <!-- Errors -->
+    <string name="error_name_required">Name is required</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_role_required">Select at least one role</string>
+    <string name="error_title_required">Event title is required</string>
+    <string name="error_location_required">Location is required</string>
+    <string name="error_capacity_required">Capacity is required</string>
+    <string name="error_dates_required">All dates are required</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_already_registered">You are already on the waiting list</string>
+    <string name="error_waitlist_full">The waiting list is full</string>
+    <string name="error_registration_closed">Registration is closed for this event</string>
+
+    <!-- Geolocation -->
+    <string name="geolocation_required_title">Location Required</string>
+    <string name="geolocation_required_msg">This event requires location verification. Allow access to join the waiting list.</string>
+    <string name="allow_location">Allow Location</string>
+</resources>

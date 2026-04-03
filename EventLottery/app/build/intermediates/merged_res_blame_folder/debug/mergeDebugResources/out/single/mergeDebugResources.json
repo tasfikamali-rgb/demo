@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_event_detail.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_event_detail.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_event_dot.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_event_dot.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_arrow_back.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_notification.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_organizer_main.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_organizer_main.xml"
+    },
+    {
+        "merged": "com.example.eventlottery.app-debug-5:/menu_bottom_nav_organizer.xml.flat",
+        "source": "com.example.eventlottery.app-main-7:/menu/bottom_nav_organizer.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_tune.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_tune.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_profile.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_profile.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_spinner_white.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_spinner_white.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_dropdown_filter.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_dropdown_filter.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_fragment_discover_events.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_discover_events.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_dialog_full_image.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\dialog_full_image.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_unread_dot.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_unread_dot.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_organizer_event_management.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_organizer_event_management.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_dialog_qr_code.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\dialog_qr_code.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_delete.png.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_delete.png"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_calendar_today.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_calendar_today.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_login.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\menu_bottom_nav_admin.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\menu\\bottom_nav_admin.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_search.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_badge_accent.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_badge_accent.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_dialog_create_profile.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\dialog_create_profile.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-hdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_badge_red.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_badge_red.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_info_cell.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_info_cell.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_event_card.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_event_card.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_search_field.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_search_field.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_dashboard.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_qr_code_icon.jpeg.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\qr_code_icon.jpeg"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_create_event.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_create_event.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_add.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_qr_scan.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_qr_scan.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_my_event.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_my_event.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_fragment_my_events.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_my_events.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\color_switch_track_selector.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\color\\switch_track_selector.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_app_logo.png.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_app_logo.png"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_profile.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-mdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_avatar_white.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_avatar_white.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_edit.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_close.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_fragment_calendar.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_calendar.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_scan_window.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_scan_window.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_calendar.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_fragment_admin_dashboard.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_admin_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_search_field_white.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_search_field_white.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_badge_green.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_badge_green.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_qr_code_icon.png.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\qr_code_icon.png"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_camera.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_avatar_primary.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_avatar_primary.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_avatar_white_small.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_avatar_white_small.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_admin_user.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_admin_user.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_entrant_main.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_entrant_main.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_location.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-xhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_admin_event.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_admin_event.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\menu_bottom_nav_organizer.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\menu\\bottom_nav_organizer.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\menu_bottom_nav_entrant.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\menu\\bottom_nav_entrant.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_home.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\color_nav_selector.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\color\\nav_selector.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_comment.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_fragment_organizer_dashboard.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_organizer_dashboard.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_registration.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_registration.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-xxhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_badge_grey.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_badge_grey.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_map_view.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_map_view.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_activity_admin_main.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\activity_admin_main.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_item_organizer_event.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\item_organizer_event.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_fragment_notifications.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-hdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_notifications.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_delete.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_spinner.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_spinner.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\layout_dialog_search_user.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\layout\\dialog_search_user.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_bg_calendar_selected.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\bg_calendar_selected.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_person.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\drawable_ic_edit.png.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\drawable\\ic_edit.png"
+    },
+    {
+        "merged": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-debug-5:\\mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "D:\\Android Studio\\Android\\Sdk\\daemon\\8.10.2\\com.example.eventlottery.app-main-7:\\mipmap-mdpi\\ic_launcher_round.xml"
+    }
+]

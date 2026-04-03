@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#F59E0B</color>
+    <color name="accent_light">#FEF3C7</color>
+    <color name="background">#F9FAFB</color>
+    <color name="badge_accepted">#059669</color>
+    <color name="badge_accepted_bg">#D1FAE5</color>
+    <color name="badge_cancelled">#6B7280</color>
+    <color name="badge_cancelled_bg">#F3F4F6</color>
+    <color name="badge_declined">#DC2626</color>
+    <color name="badge_declined_bg">#FEE2E2</color>
+    <color name="badge_selected">#7C3AED</color>
+    <color name="badge_selected_bg">#EDE9FE</color>
+    <color name="badge_waiting">#F59E0B</color>
+    <color name="badge_waiting_bg">#FEF3C7</color>
+    <color name="black">#000000</color>
+    <color name="border">#D1D5DB</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="error">#DC2626</color>
+    <color name="error_light">#FEE2E2</color>
+    <color name="info">#3B82F6</color>
+    <color name="nav_selected">#1A7A5E</color>
+    <color name="nav_unselected">#9CA3AF</color>
+    <color name="overlay">#80000000</color>
+    <color name="primary">#1A7A5E</color>
+    <color name="primary_dark">#145E47</color>
+    <color name="primary_light">#E8F5F0</color>
+    <color name="status_closed">#6B7280</color>
+    <color name="status_completed">#374151</color>
+    <color name="status_drawn">#7C3AED</color>
+    <color name="status_open">#1A7A5E</color>
+    <color name="success">#059669</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="transparent">#00000000</color>
+    <color name="unread_dot">#3B82F6</color>
+    <color name="warning">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <string name="about_event">About</string>
+    <string name="accept_invitation">Accept</string>
+    <string name="action_required">Action Required</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="all_entrants">All Entrants</string>
+    <string name="allow_location">Allow Location</string>
+    <string name="app_name">EventLottery</string>
+    <string name="app_tagline">Fair, lottery-based event registration for community centres.</string>
+    <string name="basic_info">Basic Info</string>
+    <string name="browse_events_prompt">Browse events to join the lottery!</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_save">Save Changes</string>
+    <string name="btn_send">Send</string>
+    <string name="calendar">Calendar</string>
+    <string name="cancelled_entrants">Cancelled</string>
+    <string name="capacity_pricing">Capacity &amp; Pricing</string>
+    <string name="comments">Comments</string>
+    <string name="create_event">Create Event</string>
+    <string name="create_new_profile">Create New Profile</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="days_left">%d days left</string>
+    <string name="decline_invitation">Decline</string>
+    <string name="delete_event_confirm">Delete this event? All registrations will be removed.</string>
+    <string name="delete_image_confirm">Remove this poster image?</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="delete_profile_confirm">Are you sure you want to delete your profile? This action cannot be undone.</string>
+    <string name="delete_user_confirm">Delete this user profile? This cannot be undone.</string>
+    <string name="discover_events">Discover Events</string>
+    <string name="draw_replacement">Draw Replacement</string>
+    <string name="error_already_registered">You are already on the waiting list</string>
+    <string name="error_capacity_required">Capacity is required</string>
+    <string name="error_dates_required">All dates are required</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_location_required">Location is required</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_registration_closed">Registration is closed for this event</string>
+    <string name="error_role_required">Select at least one role</string>
+    <string name="error_title_required">Event title is required</string>
+    <string name="error_waitlist_full">The waiting list is full</string>
+    <string name="event_created_success">Event created successfully!</string>
+    <string name="event_end">Event End *</string>
+    <string name="event_start">Event Start *</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="filter">Filter</string>
+    <string name="find_events_subtitle">Find community events and join the lottery</string>
+    <string name="gcm_defaultSenderId" translatable="false">674903278467</string>
+    <string name="geolocation_desc">Entrants must share location to join</string>
+    <string name="geolocation_required_msg">This event requires location verification. Allow access to join the waiting list.</string>
+    <string name="geolocation_required_title">Location Required</string>
+    <string name="google_api_key" translatable="false">AIzaSyA1gdTgZPUP_MNl90xt8wUKRnh2dVfAegA</string>
+    <string name="google_app_id" translatable="false">1:674903278467:android:42a3d2ca43eec9b0406cb6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA1gdTgZPUP_MNl90xt8wUKRnh2dVfAegA</string>
+    <string name="google_maps_key" translatable="false">AIzaSyA1gdTgZPUP_MNl90xt8wUKRnh2dVfAegA</string>
+    <string name="google_storage_bucket" translatable="false">eventlotteryclaude.firebasestorage.app</string>
+    <string name="hint_capacity">Max Capacity *</string>
+    <string name="hint_description">Description *</string>
+    <string name="hint_email">Email Address *</string>
+    <string name="hint_event_title">Event Title *</string>
+    <string name="hint_location">Location *</string>
+    <string name="hint_max_waiting_list">Max Waiting List (0 = unlimited)</string>
+    <string name="hint_name">Full Name *</string>
+    <string name="hint_phone">Phone (optional)</string>
+    <string name="hint_poster_url">Poster Image URL</string>
+    <string name="hint_price">Price (0 = Free)</string>
+    <string name="hint_tags">Tags (comma-separated)</string>
+    <string name="how_lottery_works">How the lottery works</string>
+    <string name="join_waiting_list">Join Waiting List</string>
+    <string name="leave_waiting_list">Leave Waiting List</string>
+    <string name="lottery_explanation">After registration closes, the organizer will randomly select entrants from the waiting list. Selected entrants will be notified and must accept or decline. If someone declines, another entrant will be drawn as a replacement.</string>
+    <string name="lottery_running">Running lottery…</string>
+    <string name="lottery_sample_prompt">How many attendees to select?</string>
+    <string name="lottery_success">Lottery complete! %d selected, %d notified.</string>
+    <string name="mark_all_read">Mark all read</string>
+    <string name="my_events">My Events</string>
+    <string name="nav_admin">Admin</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_browse">Browse</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_events">Events</string>
+    <string name="nav_my_events">My Events</string>
+    <string name="nav_profile">Profile</string>
+    <string name="new_event">+ New Event</string>
+    <string name="no_events_created">No events yet. Create your first event!</string>
+    <string name="no_events_found">No events found</string>
+    <string name="no_events_today">No events on this date</string>
+    <string name="no_notifications">No notifications yet</string>
+    <string name="no_registrations">No registrations yet</string>
+    <string name="no_waiting_list">No one on the waiting list to draw from.</string>
+    <string name="notifications">Notifications</string>
+    <string name="on_waiting_list">%d on waiting list</string>
+    <string name="options">Options</string>
+    <string name="organized_by">Organized by %s</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="post_comment">Post</string>
+    <string name="private_event">Private Event</string>
+    <string name="private_event_desc">Not listed publicly; share via QR code only</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">eventlotteryclaude</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="push_notifications_desc">Lottery results, invitations, updates</string>
+    <string name="quick_login">Quick Login</string>
+    <string name="reg_closes">Registration Closes *</string>
+    <string name="reg_opens">Registration Opens *</string>
+    <string name="registration_period">Registration Period</string>
+    <string name="replacement_drawn">Replacement drawn and notified!</string>
+    <string name="require_geolocation">Require Geolocation</string>
+    <string name="role_admin">Admin</string>
+    <string name="role_entrant">Entrant</string>
+    <string name="role_organizer">Organizer</string>
+    <string name="run_lottery">Run Lottery</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="schedule">Schedule</string>
+    <string name="search_events">Search events…</string>
+    <string name="search_users_events">Search users, events…</string>
+    <string name="select_demo_account">Select a profile to continue</string>
+    <string name="select_roles">Select your role(s)</string>
+    <string name="selected_entrants">Selected</string>
+    <string name="selected_message">Please accept or decline your spot for this event.</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="share_qr">Share QR Code</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_confirm">Are you sure you want to sign out?</string>
+    <string name="spots_available">%d spots</string>
+    <string name="tab_cancelled">Cancelled</string>
+    <string name="tab_enrolled">Enrolled</string>
+    <string name="tab_events">Events</string>
+    <string name="tab_images">Images</string>
+    <string name="tab_invited">Invited</string>
+    <string name="tab_logs">Logs</string>
+    <string name="tab_users">Users</string>
+    <string name="tab_waiting">Waiting</string>
+    <string name="try_different_search">Try a different search or clear filters</string>
+    <string name="write_comment">Write a comment…</string>
+    <string name="you_selected">🎉 You\'ve been selected!</string>
+    <string name="your_event_history">Your event history and current registrations</string>
+    <string name="your_events">Your Events</string>
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/nav_selector</item>
+        <item name="itemTextColor">@color/nav_selector</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="elevation">8dp</item>
+    </style>
+    <style name="ButtonDanger" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/error</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ButtonOutline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+    <style name="DialogStyle" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="buttonBarPositiveButtonStyle">@style/ButtonPrimary</item>
+    </style>
+    <style name="InputField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/border</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+    <style name="TabStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabSelectedTextColor">@color/primary</item>
+        <item name="tabTextColor">@color/text_secondary</item>
+        <item name="tabIndicatorColor">@color/primary</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabBackground">@color/white</item>
+    </style>
+    <style name="TextSectionHeader">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Theme.EventLottery" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+    <style name="Theme.EventLottery.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>
